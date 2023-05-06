@@ -1,5 +1,5 @@
 <template>
-  <div class="card-view" :style="{height: height}">
+  <div class="card-view">
     <img v-if="data.img" :src="data.img" :alt="data.title || data.subTitle">
     <h2 v-if="data.title">{{ data.title }}</h2>
     <h4 v-if="data.subTitle">{{ data.subTitle }}</h4>
@@ -11,8 +11,7 @@
 import { defineProps } from 'vue'
 
 defineProps({
-  data: Object,
-  height: String
+  data: Object
 })
 </script>
 
@@ -23,6 +22,8 @@ defineProps({
   justify-content: space-evenly;
   align-items: center;
   border: 1px solid #00000040;
+  background: #fff;
+  color: #000;
   padding: 20px;
   border-radius: 10px;
   min-height: 300px;
@@ -35,6 +36,5 @@ defineProps({
 }
 p {
   text-align: center;
-  color: #4e4e4e;
 }
 </style>

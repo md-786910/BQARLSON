@@ -1,7 +1,8 @@
 <template>
-  <div class="service-page">
-    <div class="services-container">
-      <card-view v-for="data in cardData" :key="data.title" :data="data" height="400px"/>
+  <div class="page-container">
+    <h1>OUR SERVICES</h1>
+    <div class="grid-layout">
+      <card-view v-for="data in cardData" :key="data.title" :data="data"/>
     </div>
     <div class="achievements">
       <div class="block" v-for="data in blockData" :key="data.name">
@@ -98,25 +99,13 @@ const cardData = [
 </script>
 
 <style scoped>
-.service-page {
-  height: min-content;
-  width: 80%;
-  padding: 10px 0px;
-}
-.services-container {
-  display: grid;
-  grid-template-columns: repeat(3,1fr) ;
-  gap: 25px;
-}
 .achievements {
   width: 100%;
-  height: 300px;
   margin-top: 25px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background: #05424270;
-  color: #fff;
+  flex-wrap: wrap;
 }
 .block {
   display: flex;

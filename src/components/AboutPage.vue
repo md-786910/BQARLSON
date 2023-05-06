@@ -1,5 +1,6 @@
 <template>
-  <div class="about-page">
+  <div class="page-container">
+    <h1>About Us</h1>
     <div class="details">
       <p>
         E-Website Provider (EWP) is a professional website design and development company.that provides
@@ -30,8 +31,8 @@
         ensure that your website is always performing at its best
       </p>
     </div>
-    <h1 style="text-align: center;">OUR MANAGEMENT TEAM</h1>
-    <div class="management-details">
+    <h1 class="heading">OUR MANAGEMENT TEAM</h1>
+    <div class="grid-layout">
       <card-view v-for="data in cardData" :key="data.title" :data="data" />
     </div>
   </div>
@@ -105,23 +106,13 @@ import CardView from './CardView.vue'
 </script>
 
 <style scoped>
-.about-page {
-  height: min-content;
-  width: 80%;
-  border-inline: 1px solid #00000040;
-  padding: 10px 80px;
-}
-.about-page.details {
+.details {
   width: 100%;
   height: min-content;
 }
 .details p {
   padding: 10px 0px;
-}
-.management-details {
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  gap: 25px;
-  margin-top: 25px;
+  overflow-wrap: break-word;
+  width: 100%;
 }
 </style>
