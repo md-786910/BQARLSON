@@ -36,7 +36,7 @@ body {
   font-family: Tahoma;
   height: 100vh;
   width: 100vw;
-  background: #3c6478
+  background-image: linear-gradient(to right,#30304A,#1F3F65);
 }
 
 #app {
@@ -50,7 +50,8 @@ body {
   width: 100%;
   padding: 20px;
   color: #fff;
-  background-color: #093145;
+  background-image: linear-gradient(to right,#30304A,#1F3F65);
+  box-shadow: 0px -1px 5px #ffffff71;
 }
 .grid-layout {
   display: grid;
@@ -65,7 +66,6 @@ body {
     width: 80%;
     padding: 10px 80px;
     color: #fff;
-    background-color: #093145;
   }
   .grid-layout {
     grid-template-columns: repeat(2,1fr);

@@ -1,6 +1,6 @@
 <template>
   <div class="page-container">
-    <h1>About Us</h1>
+    <h1>About Company</h1>
     <div class="details">
       <p>
         E-Website Provider (EWP) is a professional website design and development company.that provides
@@ -57,50 +57,44 @@ import CardView from './CardView.vue'
   {
     img: 'about/asif.jpeg',
     title: 'Asif Ullah',
-    subTitle: 'Vice President',
+    subTitle: 'Director & CO-Founder',
     description: 'I am dedicated to ensuring that we deliver top-notch and innovative website solutions to help businesses thrive online.'
   },
   {
-    img: 'about/shubham.jpeg',
-    title: 'Shubham Kumar Jha',
-    subTitle: 'Project Leader',
-    description: 'I am committed to delivering exceptional results for our clients.'
-  },
-  {
-    img: 'about/roshan.jpg',
+    img: 'about/roshan.jpeg',
     title: 'Roshan Kumar Jha',
-    subTitle: 'Frontend',
-    description: 'I am passionate about staying up-to-date with the latest frontend development technologies and using them to create innovative solutions that meet and exceed user expectations.'
+    subTitle: 'Project Lead & Frontend Manager',
+    description: 'I am passionate about the latest frontend development technologies and create innovative solutions that meet user expectations.'
   },
   {
-    img: '',
+    img: 'about/pooja.jpeg',
     title: 'Pooja Pandey',
-    subTitle: 'Frontend',
-    description: ''
+    subTitle: 'Frontend Manager',
+    description: 'I am passionate about the latest frontend development technologies and create innovative solutions that meet user expectations.'
   },
   {
     img: 'about/prince.jpg',
     title: 'Prince Mishra',
     subTitle: 'Chief Operating Officer',
-    description: 'goal is to help businesses of all sizes establish a strong online presence and reach their full potential.'
+    description: 'Our goal is to help businesses of all sizes establish a strong online presence and reach their full potential.'
   },
   {
     img: 'about/deepak.jpg',
     title: 'Deepak Kumar',
     subTitle: 'Senior Advisor',
-    description: ' As the Senior Advisor Leader, I bring a wealth of experience and knowledge to our team, helping to guide our company towards success.'
+    description: 'I bring a wealth of experience and knowledge to our team, helping to guide our company towards success.'
   },
   {
     img: 'about/vivek.jpg',
     title: 'Vivek Kumar',
-    subTitle: 'Operation Team',
-    description: ''
+    subTitle: 'Service Provider',
+    description: "We're committed to ensuring your website runs smoothly."
   },
   {
     img: 'about/dinanath.jpg',
     title: 'Dinanath Kumar',
-    subTitle: 'Operation Team',
-    description: ''
+    subTitle: 'Service Provider',
+    description: "We're committed to ensuring your website runs smoothly."
   }
  ]
 </script>

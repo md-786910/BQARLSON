@@ -1,6 +1,6 @@
 <template>
     <header class="header">
-      <img class="logo" src="favicon.ico" alt="EWP">
+      <img class="logo" :class="currentRoute === 'home' ? 'active-tab' : ''" @click="onTabClick" src="logo-home.png" alt="EWP">
       <nav>
         <ul @click="onTabClick">
           <li :class="currentRoute === 'home' ? 'active-tab' : ''">HOME</li>
@@ -76,6 +76,7 @@ header.header {
   position: absolute;
   right: 0;
   width: 150px;
+  background: #3c6478;
 }
 
 nav {
@@ -87,7 +88,7 @@ ul {
   list-style-type: none;
   cursor: pointer;
   z-index: 10;
-  background: #3c6478;
+  background: inherit;
 }
  li {
   height: 100%;
@@ -97,6 +98,7 @@ ul {
  img {
   height: 100%;
   padding: 5px;
+  cursor: pointer;
  }
 
  @media only screen and (min-width: 800px) {

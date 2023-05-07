@@ -12,10 +12,34 @@ import WorkCard from "./WorkCard.vue"
 
 const workData = [
   {
-    name: 'School',
+    name: 'Bussiness',
     type: 'Web Development',
-    img: 'work/cbse.png',
-    link: 'https://kesshroffcollege.com/nss/'
+    img: 'work/bussiness.png',
+    link: 'https://www.blastness.com/'
+  },
+  {
+    name: 'The Agency',
+    type: 'Web Development',
+    img: 'service/the-agency-logo.gif',
+    link: 'https://theagencyrealestate.ca/'
+  },
+  {
+    name: 'Medical Shop',
+    type: 'Web Development',
+    img: 'work/medical-shop.png',
+    link: 'https://www.bluemedix.in/'
+  },
+  {
+    name: 'Real Estate',
+    type: 'Web Development',
+    img: 'work/realestate_logo.svg',
+    link: 'https://www.realtytrac.com/'
+  },
+  {
+    name: 'Education',
+    type: 'Web Development',
+    img: 'work/education_logo.svg',
+    link: 'https://www.aacsb.edu/'
   },
   {
     name: 'Institute',
@@ -26,7 +50,7 @@ const workData = [
   {
     name: 'Hotel',
     type: 'Web Development',
-    img: 'work/hotel.png',
+    img: 'service/hotel-logo.jpg',
     link: 'https://hotelemojiinn.com/'
   },
   {
@@ -53,12 +77,12 @@ const workData = [
     img: 'work/khan-gs.png',
     link: 'https://www.khangsresearchcentre.co.in/'
   },
-  {
-    name: 'School',
-    type: 'Wordpress',
-    img: 'work/school.webp',
-    link: 'https://www.brightcareerschoolpurnea.com/'
-  },
+  // {
+  //   name: 'School',
+  //   type: 'Wordpress',
+  //   img: 'work/school.webp',
+  //   link: 'https://www.brightcareerschoolpurnea.com/'
+  // },
   {
     name: 'Medicine',
     type: 'Wordpress',

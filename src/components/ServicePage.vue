@@ -82,19 +82,19 @@ const cardData = [
   },
   {
     icon: 'service/journal.svg',
-    number: '2',
+    number: '5',
     name: 'YEARS OF EXPERIENCE'
   },
   {
     icon: 'service/peoples.svg',
-    number: '2',
+    number: '22',
     name: 'TOTAL CLIENTS'
   },
-  {
-    icon: 'service/award.svg',
-    number: '2',
-    name: 'AWARDS WON'
-  }
+  // {
+  //   icon: 'service/award.svg',
+  //   number: '2',
+  //   name: 'AWARDS WON'
+  // }
  ]
 </script>
 
