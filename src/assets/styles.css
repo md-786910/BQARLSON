@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
 *::-webkit-scrollbar {
@@ -78,6 +79,10 @@ body {
 h1 {
   text-align: center;
   font-size: 1.5rem;
+}
+h2 {
+  text-align: center;
+  font-size: 1.25rem;
 }
 
 .heading {

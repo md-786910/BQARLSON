@@ -33,7 +33,7 @@
     </div>
     <h1 class="heading">OUR MANAGEMENT TEAM</h1>
     <div class="grid-layout">
-      <card-view v-for="data in cardData" :key="data.title" :data="data" />
+      <card-view v-for="data in cardData" :key="data.title || data.subTitle" :data="data" />
     </div>
   </div>
 </template>
