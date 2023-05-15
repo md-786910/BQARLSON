@@ -2,26 +2,39 @@
   <div class="home-page">
     <!-- <img src="logo-home.png" alt="logo" class="logo-home"> -->
     <div class="home-container">
-      <div>
+      <div class="home-content">
       <h1>Welcome to e-website Provider</h1>
       <h2>First step towards taking your business online</h2>
       <div class="word-animation"><h3>Our team expert in</h3> <h3>{{ showText }}</h3><h3 class="blink">|</h3></div>
       </div>
-      <img src="earth.png" alt="logo" class="logo-earth">
+      <div class="earth-logo">
+        <LottieAnimation animationData="https://assets3.lottiefiles.com/packages/lf20_SkhtL8.json"/>
+      </div>
     </div>
-    <AboutPage/>
+      <h1>About Us</h1>
+      <div class="content-block">
+        <div class="about-us-block w-50">
+        <p>
+          E-Website Provider (EWP) is a professional website design and development company,that provides creative and modern websites according to the needs of clients. Our team of skilled designers and developers works closely with our clients to understand their unique business requirements and provide customized solutions that align with their goals.
+        </p>
+        <button @click="router.push('/about')">Know More</button>
+        </div>
+        <LottieAnimation class="w-50" animationData="https://assets7.lottiefiles.com/packages/lf20_450hEfBjlr.json"/>
+      </div>
     <ServicePage/>
     <WorkPage/>
     <ContactPage/>
   </div>
 </template>
-
 <script setup>
-import ServicePage from './ServicePage.vue';
-import AboutPage from './AboutPage.vue';
-import WorkPage from './WorkPage.vue';
-import ContactPage from './ContactPage.vue';
-import { computed, ref } from 'vue';
+import ServicePage from './ServicePage.vue'
+import WorkPage from './WorkPage.vue'
+import ContactPage from './ContactPage.vue'
+import { computed, ref } from 'vue'
+import LottieAnimation from './LottieAnimation.vue'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
 
 const text = ['eCommerce','Website Development','UI/UX Design','Wordpress Development']
 
@@ -44,14 +57,36 @@ const showText = computed(() => {
   align-items: center;
 }
 .home-container {
-  background-image: linear-gradient(to right,#30304A,#1F3F65);
   min-height: calc(100vh - 40px);
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column-reverse;
+}
+
+.about-us-block {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.about-us-block button {
+  border-radius: 20px;
+  height: 50px;
+  width: 200px;
+  border: 2px solid #000;
+  cursor: pointer;
+}
+.about-us-block button:hover {
+  background: #39cbfb ;
   color: #fff;
+
+}
+.earth-logo {
+  position: relative;
+  padding: 10%;
+  scale: 1.6;
 }
 
 h1 {
@@ -80,6 +115,14 @@ h3 {
 h1 {
   font-size: 3rem
 }
+.home-content {
+  z-index: 1;
+}
+.earth-logo {
+  position: absolute;
+  scale: 1;
+  filter: blur(1px);
+}
 }
 
 .blink {
@@ -95,11 +138,22 @@ h1 {
     opacity: 1;
   }
 }
+.content-block {
+  margin: 20px;
+}
 
-.logo-earth {
-  height: 200px;
-  translate: 25px 0px;
-  scale: 1.5;
-  margin: 0px 0px 30px 30px;
+@media only screen and (min-width: 1350px) { 
+  .content-block {
+    display: flex;
+  }
+ p {
+    letter-spacing: 4px;
+    padding: 10px;
+    line-height: 30px;
+    font-size: 1rem;
+  }
+  .w-50 {
+    width: 50%;
+  }
 }
 </style>

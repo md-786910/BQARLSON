@@ -19,7 +19,7 @@
         </div>
       </Teleport>
       <div class="detail-container">
-        <h1 class="heading">get in touch</h1>
+        <h1 class="heading">Get in touch</h1>
         <p><img src="location.svg" alt="location"> Head Office:-Floor No-1 ,Block Sector-Kharadi road,Near-Reliance mall kharadi Pune,Maharashtra, Pin-411014</p>
         <p><img src="location.svg" alt="location"> Branch Office:-3A-Sri Durga Enclave, Plot no 39B, 2nd Street, River View Residency, Karapakkam, Chennai, Tamil Nadu 600097</p>
         <p><img src="location.svg" alt="location"> Branch Office:-Floor no 2, Vidhyashri Building, Chowdeshwari Layout, Marathalli, Banglore, 560037</p>
@@ -116,9 +116,7 @@ textarea {
   text-shadow: 0 1px #ffffff5a;
 }
 
-.contact-icons,
-p,
-h3 {
+.contact-icons{
   padding: 5px;
   margin: 10px;
 }
@@ -128,6 +126,10 @@ h3 {
 }
 a img {
   width: 30px;
+}
+
+p {
+  text-align: left;
 }
 
 @media only screen and (min-width: 1350px) { 

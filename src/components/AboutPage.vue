@@ -1,45 +1,45 @@
 <template>
   <div class="page-container">
-    <h1>About Company</h1>
-    <div class="details">
-      <p>
-        E-Website Provider (EWP) is a professional website design and development company.that provides
-        creative and modern websites according to the needs of clients. Our team of skilled designers and
-        developers works closely with our clients to understand their unique business requirements and
-        provide customized solutions that align with their goals. At EWP, we pride ourselves on providing
-        high-quality website design and development services that exceed our clients' expectations. We
-        offer a wide range of website solutions that cater to all types of businesses, from small
-        start-ups to large corporations
-      </p>
-      <p>
+    <div class="about-content">
+      <h1>Our Services and Expertise</h1>
+      <div class="content-block">
+        <p class="w-50">
+          E-Website Provider (EWP) is a professional website design and development company.that provides
+          creative and modern websites according to the needs of clients. Our team of skilled designers and
+          developers works closely with our clients to understand their unique business requirements and
+          provide customized solutions that align with their goals. At EWP, we pride ourselves on providing
+          high-quality website design and development services that exceed our clients' expectations. We
+          offer a wide range of website solutions that cater to all types of businesses, from small
+          start-ups to large corporations
+        </p>
+        <LottieAnimation class="w-50" animationData="https://assets9.lottiefiles.com/packages/lf20_RkDrfCI7wQ.json"/>
+      </div>
+      <h1>Our Mission and Values</h1>
+      <p>Our mission is to empower businesses and individuals to achieve their online goals through innovative web development solutions. We believe in integrity, teamwork, continuous learning, and excellence in everything we do.</p>
+      <div class="content-block">
+        <LottieAnimation class="w-50"  animationData="https://assets2.lottiefiles.com/packages/lf20_qq5qecip.json"/>
+        <p class="w-50">
         Our Services:
         At EWP, we provide a comprehensive range of website design and development services to meet the
         needs of our clients. Our services include Business Websites, Education Websites, Agency Websites,
         E-commerce Websites, Hotel Websites, Portfolio Websites, Blog Websites, Real Estate Websites,
         Medical Shop Websites, Online Booking Websites, Small Finance Bank Websites, and many more.
-      </p>
-      <p>
-        At E-Website Provider, we understand that creating a website can be overwhelming, which is why we
-        offer a streamlined process that ensures a smooth and hassle-free experience for our clients. We
-        will work with you every step of the way, from the initial consultation to the final launch, to
-        ensure that your website meets your expectations.
-      </p>
-      <p>
-        In addition to website development, we also offer website maintenance and support services to
-        ensure that your website remains up to date, secure, and functioning at its best. Our team is
-        available to provide ongoing support, including website updates, backups, and security checks, to
-        ensure that your website is always performing at its best
-      </p>
+        </p>
+      </div>
     </div>
-    <h1 class="heading">OUR MANAGEMENT TEAM</h1>
+    <h1 class="heading">Our Team and Culture</h1>
+    <p>Our team of skilled designers and developers works closely with our clients to understand their unique business requirements and provide customized solutions that align with their goals. At EWP, we pride ourselves on providing high-quality website design and development services that exceed our clients' expectations. We offer a wide range of website solutions that cater to all types of businesses, from small start-ups to large corporations.</p>
     <div class="grid-layout">
       <card-view v-for="data in cardData" :key="data.title || data.subTitle" :data="data" />
     </div>
+    <h1 class="heading">History</h1>
+    <p>Founded in 2022, ewebsiteprovider has been providing top-notch web development services to clients across the globe. We have a team of experienced and skilled developers who are passionate about delivering high-quality solutions that exceed our clients' expectations.</p>
   </div>
 </template>
 
 <script setup>
 import CardView from './CardView.vue'
+import LottieAnimation from './LottieAnimation.vue'
 
  const cardData = [
   {
@@ -63,7 +63,7 @@ import CardView from './CardView.vue'
   {
     img: 'about/roshan.jpeg',
     title: 'Roshan Kumar Jha',
-    subTitle: 'Project Lead & Frontend Manager',
+    subTitle: 'PM',
     description: 'I am passionate about the latest frontend development technologies and create innovative solutions that meet user expectations.'
   },
   {
@@ -100,13 +100,23 @@ import CardView from './CardView.vue'
 </script>
 
 <style scoped>
-.details {
-  width: 100%;
-  height: min-content;
+.content-block {
+  margin: 20px;
 }
-.details p {
-  padding: 10px 0px;
-  overflow-wrap: break-word;
-  width: 100%;
+
+@media only screen and (min-width: 1350px) { 
+  .content-block {
+    display: flex;
+  }
+ p {
+    letter-spacing: 4px;
+    padding: 10px;
+    line-height: 30px;
+    font-size: 1rem;
+  }
+  .w-50 {
+    width: 50%;
+  }
 }
+
 </style>
