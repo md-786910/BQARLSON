@@ -116,7 +116,10 @@ h3 {
 h1:hover,
 h2:hover,
 h3:hover {
-  color: #ffffffaa;
+  text-shadow: 2px 2px #ffffffaa;
+  color: #000;
+  font-weight: 800;
+  scale: 1.1;
 }
 
 
