@@ -26,6 +26,7 @@
     <ContactPage/>
   </div>
 </template>
+
 <script setup>
 import ServicePage from './ServicePage.vue'
 import WorkPage from './WorkPage.vue'
@@ -77,6 +78,7 @@ const showText = computed(() => {
   width: 200px;
   border: 2px solid #000;
   cursor: pointer;
+  margin-top: 50px;
 }
 .about-us-block button:hover {
   background: #39cbfb ;
