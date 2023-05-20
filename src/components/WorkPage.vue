@@ -30,7 +30,7 @@ const workData = [
   {
     name: 'The Agency',
     type: 'Web Development',
-    img: 'service/the-agency-logo.gif',
+    img: 'work/the-agency-logo.gif',
     link: 'https://theagencyrealestate.ca/',
     description: "An Agency Website is a platform for advertising and marketing agencies to showcase their portfolio and services."
   },
@@ -65,7 +65,7 @@ const workData = [
   {
     name: 'Hotel',
     type: 'Web Development',
-    img: 'service/hotel-logo.jpg',
+    img: 'work/hotel-logo.jpg',
     link: 'https://hotelemojiinn.com/',
     description: "A Hotel Website is necessary to establish an online presence, showcase your hotel's brand and unique features."
   },

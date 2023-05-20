@@ -34,11 +34,13 @@
     </div>
     <h1 class="heading">History</h1>
     <p>Founded in 2022, ewebsiteprovider has been providing top-notch web development services to clients across the globe. We have a team of experienced and skilled developers who are passionate about delivering high-quality solutions that exceed our clients' expectations.</p>
+  <FooterLayout/>
   </div>
 </template>
 
 <script setup>
 import CardView from './CardView.vue'
+import FooterLayout from './FooterLayout.vue'
 import LottieAnimation from './LottieAnimation.vue'
 
  const cardData = [

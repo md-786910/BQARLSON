@@ -26,33 +26,28 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import { useRouter } from 'vue-router'
 
 const router = useRouter()
 const showDropdown = ref(false)
-const currentRoute = ref('')
+const currentRoute = computed(() => router?.currentRoute.value.name || 'home')
 function onTabClick(e) {
   const route = e.target.innerText.toLowerCase()
   if (route.includes('about')) {
   router.push('/about')
-  currentRoute.value = 'about'
   }
   else if (route.includes('work')) {
   router.push('/work')
-  currentRoute.value = 'work'
   }
   else if (route.includes('service')) {
   router.push('/service')
-  currentRoute.value = 'service'
   }
   else if (route.includes('contact')) {
   router.push('/contact')
-  currentRoute.value = 'contact'
   }
   else { 
     router.push('/home') 
-  currentRoute.value = 'home'
   }
   showDropdown.value = !showDropdown.value
 }

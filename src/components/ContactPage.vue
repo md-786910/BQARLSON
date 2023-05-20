@@ -1,6 +1,7 @@
 <template>
   <div class="page-container">
     <div class="contact-container">
+      <lottie-animation class="contact-bg" animation-data="https://assets9.lottiefiles.com/packages/lf20_kfcwv9hc.json"/>
       <form @submit.prevent="onFormSubmit">
         <h1 class="heading">Contact Us</h1>
         <label for="name">Name:</label>
@@ -10,7 +11,7 @@
         <label for="message">Message:</label>
         <textarea id="message" name="message" v-model="formData.message" required></textarea>
         <input type="submit" value="Submit" class="btn">
-      </form> 
+      </form>
       <Teleport v-if="message" to="body">
         <div class="message-modal">
           <div class="message">
@@ -18,29 +19,15 @@
           </div>
         </div>
       </Teleport>
-      <div class="detail-container">
-        <h1 class="heading">Get in touch</h1>
-        <p><img src="location.svg" alt="location"> Head Office:-Floor No-1 ,Block Sector-Kharadi road,Near-Reliance mall kharadi Pune,Maharashtra, Pin-411014</p>
-        <p><img src="location.svg" alt="location"> Branch Office:-3A-Sri Durga Enclave, Plot no 39B, 2nd Street, River View Residency, Karapakkam, Chennai, Tamil Nadu 600097</p>
-        <p><img src="location.svg" alt="location"> Branch Office:-Floor no 2, Vidhyashri Building, Chowdeshwari Layout, Marathalli, Banglore, 560037</p>
-        <p><img src="mobile.svg" alt="location"> +918873732631 / +918800604320 / +917324865944</p>
-        <p><img src="mail.svg" alt="location"> ceo@ewebsiteprovider.com</p>
-        <p><img src="mail.svg" alt="location"> support@ewebsiteprovider.com</p>
-        <h3>Follow Us</h3>
-        <div class="contact-icons">
-          <a href="https://www.linkedin.com/company/e-websiteprovider/" target="blank"><img src="linkedin.svg" alt="ln"></a>
-          <a href="https://www.facebook.com/ewebsiteprovider.official/" target="blank"><img src="facebook.svg" alt="fb"></a>
-          <a href="https://twitter.com/ewprovider/" target="blank"><img src="twitter.svg" alt="twitter"></a>
-          <a href="https://www.instagram.com/ewebsiteprovider/" target="blank"><img src="instagram.svg" alt="insta"></a>
-        </div>
-        <p class="cp-text">© Copyright 2022 e-Website Provider. All rights reserved.</p>
-      </div>
     </div>
+    <FooterLayout/>
   </div>
 </template>
 
 <script setup>
 import { ref } from "vue"
+import FooterLayout from './FooterLayout.vue'
+import LottieAnimation from './LottieAnimation.vue'
 
 const formDefaults = {
   name:'',
@@ -61,6 +48,10 @@ function onFormSubmit() {
 </script>
 
 <style scoped>
+.contact-bg {
+  background: url('/public/contact-bg.jpg') no-repeat;
+  background-size: 80% 100%;
+}
 .message-modal {
   position: absolute;
   width: 100vw;
@@ -111,27 +102,9 @@ textarea {
 .btn:hover {
   background: #5ad9ff;
 }
-.cp-text { 
-  color: #ffffff1a; 
-  text-shadow: 0 1px #ffffff5a;
+footer {
+  box-shadow: 0px -1px 0px 0 #ffffff3a;
 }
-
-.contact-icons{
-  padding: 5px;
-  margin: 10px;
-}
-
-.contact-icons a{
-  margin-right: 20px;
-}
-a img {
-  width: 30px;
-}
-
-p {
-  text-align: left;
-}
-
 @media only screen and (min-width: 1350px) { 
   .contact-container {
     display: grid;

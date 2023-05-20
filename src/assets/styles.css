@@ -51,7 +51,7 @@ body {
   height: min-content;
   width: 100%;
   padding: 20px;
-  box-shadow: 0px 0px 0px 1px #ffffff20;
+  box-shadow: 0px 0px 5px 0px #ffffff20;
 }
 
 .grid-layout {
@@ -111,15 +111,6 @@ h3 {
 
 .heading {
   padding-top: 30px;
-}
-
-h1:hover,
-h2:hover,
-h3:hover {
-  text-shadow: 2px 2px #ffffffaa;
-  color: #000;
-  font-weight: 800;
-  scale: 1.1;
 }
 
 
