@@ -1,9 +1,9 @@
 <template>
     <header class="header">
-      <img class="logo" :class="currentRoute === 'home' ? 'active-tab' : ''" @click="onTabClick" src="logo-home.png" alt="EWP">
+      <img class="logo" @click="onTabClick" src="logo-home.png" alt="EWP">
       <nav>
         <ul @click="onTabClick">
-          <li :class="currentRoute === 'home' ? 'active-tab' : ''">HOME</li>
+          <li :class="currentRoute === 'home' ? 'active-tab' : ''">Home</li>
           <li :class="currentRoute === 'about' ? 'active-tab' : ''">About</li>
           <li :class="currentRoute === 'service' ? 'active-tab' : ''">Services</li>
           <li :class="currentRoute === 'work' ? 'active-tab' : ''">Work</li>
@@ -14,7 +14,7 @@
       <button class="dropdown-btn" @click="showDropdown = !showDropdown">Menu</button>
       <div class="dropdown-content" v-if="showDropdown">
         <ul @click="onTabClick">
-          <li :class="currentRoute === 'home' ? 'active-tab' : ''">HOME</li>
+          <li :class="currentRoute === 'home' ? 'active-tab' : ''">Home</li>
           <li :class="currentRoute === 'about' ? 'active-tab' : ''">About</li>
           <li :class="currentRoute === 'service' ? 'active-tab' : ''">Services</li>
           <li :class="currentRoute === 'work' ? 'active-tab' : ''">Work</li>
@@ -55,8 +55,7 @@ function onTabClick(e) {
 
 <style scoped>
 .active-tab {
-  color: #fff;
-  background: #093145;
+  color: #0078ff;
 }
 header.header {
   display: flex;
@@ -90,12 +89,15 @@ ul {
   padding: 10px 25px;
   font-weight: 400;
  }
- img {
+ img.logo {
   height: 100%;
   padding: 5px;
   cursor: pointer;
  }
-
+ li:hover {
+  color: #5ad9ff;
+  background: #ffffff5a;
+ }
  @media only screen and (min-width: 800px) {
   header.header {
   padding-inline: 10%;

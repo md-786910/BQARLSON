@@ -1,55 +1,96 @@
 <template>
   <div class="home-page">
-    <!-- <img src="logo-home.png" alt="logo" class="logo-home"> -->
     <div class="home-container">
-      <div class="home-content">
-      <h1>Welcome to e-website Provider</h1>
-      <h2>First step towards taking your business online</h2>
-      <div class="word-animation"><h3>Our team expert in</h3> <h3>{{ showText }}</h3><h3 class="blink">|</h3></div>
+      <div class="logo-container">
+        <img v-for="x in imgs" :key="x" :src="x" />
       </div>
-      <div class="earth-logo">
-        <LottieAnimation animationData="https://assets3.lottiefiles.com/packages/lf20_SkhtL8.json"/>
+      <div class="w-50 home-texts">
+        <h1 class="light-weight">{{ showText.f }}</h1>
+        <h1>{{ showText.s }}</h1>
+        <h1>{{ showText.t }}</h1>
+        <div class="word-animation">
+          <p>{{ showText.d }}</p>
+          <p class="blink">|</p>
+        </div>
+      </div>
+      <div class="w-50">
+        <!-- <LottieAnimation animationData="https://assets3.lottiefiles.com/packages/lf20_SkhtL8.json"/> -->
+        <img class="home-img" :src="showText.src" />
       </div>
     </div>
-      <h1>About Us</h1>
-      <div class="content-block">
-        <div class="about-us-block w-50">
+    <h1>About Us</h1>
+    <div class="content-block">
+      <div class="about-us-block w-50">
         <p>
-          E-Website Provider (EWP) is a professional website design and development company,that provides creative and modern websites according to the needs of clients. Our team of skilled designers and developers works closely with our clients to understand their unique business requirements and provide customized solutions that align with their goals.
+          E-Website Provider (EWP) is a professional website design and
+          development company,that provides creative and modern websites
+          according to the needs of clients. Our team of skilled designers and
+          developers works closely with our clients to understand their unique
+          business requirements and provide customized solutions that align with
+          their goals.
         </p>
         <button @click="router.push('/about')">Know More</button>
-        </div>
-        <LottieAnimation class="w-50" animationData="https://assets7.lottiefiles.com/packages/lf20_450hEfBjlr.json"/>
       </div>
-    <ServicePage/>
-    <WorkPage/>
-    <ContactPage/>
+      <LottieAnimation
+        class="w-50"
+        animationData="https://assets7.lottiefiles.com/packages/lf20_450hEfBjlr.json" />
+    </div>
+    <ServicePage />
+    <WorkPage />
+    <ContactPage />
   </div>
 </template>
 
 <script setup>
-import ServicePage from './ServicePage.vue'
-import WorkPage from './WorkPage.vue'
-import ContactPage from './ContactPage.vue'
-import { computed, ref } from 'vue'
-import LottieAnimation from './LottieAnimation.vue'
-import { useRouter } from 'vue-router'
+import ServicePage from "./ServicePage.vue";
+import WorkPage from "./WorkPage.vue";
+import ContactPage from "./ContactPage.vue";
+import { computed, ref } from "vue";
+import LottieAnimation from "./LottieAnimation.vue";
+import { useRouter } from "vue-router";
 
-const router = useRouter()
+const router = useRouter();
+const imgs = ["webtest.png", "webdev.png", "ai.png", "digmkt.png"];
 
-const text = ['eCommerce','Website Development','UI/UX Design','Wordpress Development']
+const text = [
+  {
+    f: "Offshore",
+    s: "Dedicated",
+    t: "Development Team",
+    src: "bnr-large-01.webp",
+    d: "Delivering Software solutions to build intelligent enterprises with speed and agility",
+  },
+  {
+    f: "Future Ready",
+    s: "Software Development",
+    t: "Company",
+    src: "bnr-large-02.webp",
+    d: "First step towards taking your business online",
+  },
+];
 
-const aciveIndex = ref(0)
-setInterval(()=>{
-  aciveIndex.value++
-  if (text.length === aciveIndex.value) aciveIndex.value = 0
-},2000)
+const aciveIndex = ref(0);
+setInterval(() => {
+  aciveIndex.value++;
+  if (text.length === aciveIndex.value) aciveIndex.value = 0;
+}, 5000);
 const showText = computed(() => {
-  return text[aciveIndex.value]
-})
+  return text[aciveIndex.value];
+});
 </script>
 
 <style scoped>
+.logo-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  justify-content: space-evenly;
+  bottom: 100px;
+}
+.light-weight {
+  font-weight: 300;
+}
 .home-page {
   height: 100%;
   width: 100%;
@@ -58,14 +99,13 @@ const showText = computed(() => {
   align-items: center;
 }
 .home-container {
-  min-height: calc(100vh - 40px);
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column-reverse;
+  position: relative;
 }
-
 .about-us-block {
   display: flex;
   justify-content: space-evenly;
@@ -81,50 +121,12 @@ const showText = computed(() => {
   margin-top: 50px;
 }
 .about-us-block button:hover {
-  background: #39cbfb ;
+  background: #39cbfb;
   color: #fff;
-
-}
-.earth-logo {
-  position: relative;
-  padding: 10%;
-  scale: 1.6;
-}
-
-h1 {
-  font-size: 2rem;
-  padding: 10px 0px;
-}
-h2 {
-  font-size: 1.5rem;
-  padding: 10px 0px;
-}
-h3 {
-  font-size: 2rem;
-  padding: 10px 10px;
 }
 .word-animation {
   display: block;
   text-align: center;
-}
-@media screen and (min-width: 1000px){
-.word-animation {
-  display: flex;
-}
-.home-container {
-  flex-direction: row;
-}
-h1 {
-  font-size: 3rem
-}
-.home-content {
-  z-index: 1;
-}
-.earth-logo {
-  position: absolute;
-  scale: 1;
-  filter: blur(1px);
-}
 }
 
 .blink {
@@ -144,18 +146,46 @@ h1 {
   margin: 20px;
 }
 
-@media only screen and (min-width: 1350px) { 
+@media only screen and (min-width: 1350px) {
+  .home-texts {
+    padding-inline: 100px 0;
+  }
+  .logo-container {
+    position: absolute;
+    height: 100px;
+  }
   .content-block {
     display: flex;
   }
- p {
+  p {
     letter-spacing: 4px;
     padding: 10px;
     line-height: 30px;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .w-50 {
     width: 50%;
   }
+}
+.home-img {
+  width: 100%;
+}
+@media screen and (min-width: 1000px) {
+  .word-animation {
+    display: flex;
+  }
+  .home-container {
+    flex-direction: row;
+  }
+  h1 {
+    font-size: 3rem;
+    text-align: left;
+  }
+  p {
+    text-align: left;
+  }
+}
+.logo-container img {
+  height: 100%;
 }
 </style>

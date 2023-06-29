@@ -98,7 +98,10 @@ ul {
   font-weight: 400;
   text-align: center;
  }
+ li:hover {
+  color: #5ad9ff;
+ }
  .active-tab {
-  color: #1dee58;
+  color: #0078ff;
 }
 </style>
