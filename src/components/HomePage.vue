@@ -10,7 +10,6 @@
         <h1>{{ showText.t }}</h1>
         <div class="word-animation">
           <p>{{ showText.d }}</p>
-          <p class="blink">|</p>
         </div>
       </div>
       <div class="w-50">
@@ -50,7 +49,13 @@ import LottieAnimation from "./LottieAnimation.vue";
 import { useRouter } from "vue-router";
 
 const router = useRouter();
-const imgs = ["webtest.png", "webdev.png", "ai.png", "digmkt.png"];
+const imgs = [
+  "software.png",
+  "webtest.png",
+  "webdev.png",
+  "dgtmkt.png",
+  "ai.png",
+];
 
 const text = [
   {
@@ -86,7 +91,7 @@ const showText = computed(() => {
   width: 100%;
   height: 50px;
   justify-content: space-evenly;
-  bottom: 100px;
+  bottom: 50px;
 }
 .light-weight {
   font-weight: 300;
@@ -100,11 +105,14 @@ const showText = computed(() => {
 }
 .home-container {
   width: 100%;
+  min-height: 100%;
+  overflow: hidden;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column-reverse;
   position: relative;
+  padding: 16px 0;
 }
 .about-us-block {
   display: flex;
@@ -127,20 +135,6 @@ const showText = computed(() => {
 .word-animation {
   display: block;
   text-align: center;
-}
-
-.blink {
-  padding: 10px 0px;
-  animation: blinker 0.7s infinite ease-in-out;
-}
-
-@keyframes blinker {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 .content-block {
   margin: 20px;
