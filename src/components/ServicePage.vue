@@ -55,8 +55,15 @@
       </div>
     </div>
     <h1 class="left-align heading highlight">TECHNOLOGY STACK</h1>
-    <h2 class="left-align">Elevating software development with a robust technology stack</h2>
-    <p class="left-align">Our technology stack includes the latest programming languages and frameworks to deliver custom software development services & solutions. As a top software development company, we use agile methodologies to ensure rapid development and scalable solutions.</p>
+    <h2 class="left-align">
+      Elevating software development with a robust technology stack
+    </h2>
+    <p class="left-align">
+      Our technology stack includes the latest programming languages and
+      frameworks to deliver custom software development services & solutions. As
+      a top software development company, we use agile methodologies to ensure
+      rapid development and scalable solutions.
+    </p>
     <el-tabs v-model="activeName" class="service-tabs">
       <el-tab-pane
         v-for="(icons, key) in services"
@@ -196,9 +203,9 @@
 <script setup>
 // import CardView from "./CardView.vue";
 import LottieAnimation from "./LottieAnimation.vue";
-import { ref } from 'vue'
+import { ref } from "vue";
 import { Icon } from "@iconify/vue";
-import BestPractices from '@/homenew/BestPractices.vue'
+import BestPractices from "@/homenew/BestPractices.vue";
 
 // const cardData = [
 //   {
@@ -318,7 +325,6 @@ const services = {
 };
 const activeName = ref("Front End");
 
-
 const blockData = [
   {
     animation: "https://assets3.lottiefiles.com/packages/lf20_dBF8frvgma.json",
@@ -383,23 +389,15 @@ const category = [
 }
 .container {
   margin: 50px 0 0;
-  position: relative;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: space-between;
 }
 
 .container .sub-head {
   border-left: 2px solid Red;
   padding: 16px;
-}
-
-.container .displayImg img {
-  padding: 50px;
-  height: 500px;
-  width: 500px;
-  border-radius: 50%;
-  background-image: radial-gradient(#ffffff00,#ffffffdd);
-  backdrop-filter: 10px;
 }
 
 .container .content .service {
@@ -423,7 +421,7 @@ const category = [
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow:  0 0 8px #0000007a;
+  box-shadow: 0 0 8px #0000007a;
 }
 .container .content .service div img {
   position: absolute;
@@ -508,6 +506,9 @@ const category = [
   .achievements {
     grid-template-columns: repeat(3, 1fr);
   }
+  .container {
+    flex-direction: row;
+  }
 }
 .block {
   display: flex;
@@ -524,13 +525,28 @@ const category = [
   border-radius: 50%;
   overflow: visible;
 }
-
+.container .displayImg {
+  position: relative;
+  border-radius: 50%;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
 .container .displayImg .banner1,
 .banner2,
 .banner3,
 .banner4,
 .banner5 {
   position: absolute;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+  background-image: radial-gradient(#ffffff00, #ffffffaa);
+  backdrop-filter: 4px;
 }
 
 .banner1 {

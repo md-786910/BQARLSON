@@ -1,6 +1,6 @@
 <template>
   <h2>Our Best Practices <span class="highlight">Make Your Life Easy</span></h2>
-  <div class="grid-layout">
+  <div class="best-practice-container">
     <div class="bestpraccard-column">
       <div class="card">
         <div class="image-container">
@@ -72,6 +72,22 @@
 </template>
 
 <style scoped>
+.best-practice-container {
+  display: grid;
+  gap: 32px;
+}
+
+@media only screen and (min-width: 800px) {
+  .best-practice-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  .best-practice-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
 .card {
   text-align: center;
 }
