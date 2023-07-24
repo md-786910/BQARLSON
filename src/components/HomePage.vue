@@ -1,15 +1,15 @@
 <template>
   <div class="home-page">
     <div class="home-container">
-      <div class="logo-container">
-        <img v-for="x in imgs" :key="x" :src="x" />
-      </div>
       <div class="w-50 home-texts">
         <h1 class="light-weight">{{ showText.f }}</h1>
         <h1>{{ showText.s }}</h1>
         <h1>{{ showText.t }}</h1>
         <div class="word-animation">
           <p>{{ showText.d }}</p>
+        </div>
+        <div class="logo-container">
+          <img v-for="x in imgs" :key="x" :src="x" />
         </div>
       </div>
       <div class="w-50">
@@ -21,12 +21,21 @@
     <div class="content-block">
       <div class="about-us-block w-50">
         <p>
-          E-Website Provider (EWP) is a professional website design and
-          development company,that provides creative and modern websites
-          according to the needs of clients. Our team of skilled designers and
-          developers works closely with our clients to understand their unique
-          business requirements and provide customized solutions that align with
-          their goals.
+          E-Website Provider Private Limited (EWPPL) is a professional Web
+          Services ,Mobile Apps Development and Digital Marketing Company.We are
+          providing proactive IT and Digital Marketing Solutions for more than 1
+          years to Small-To-high Sized Businesses.We focus on fostering the
+          areas like Web Design & Development, Mobile Apps Development ,SEO,
+          SMM, Digital Marketing Services, Web Advertisements, and Developing
+          Creative Content resulting in Fully Managed and Highly Successful
+          Online Marketing Campaigns. We aim to provide the best possible
+          Strategic Outcome for our valuable clients through our Affordable
+          Digital Marketing Services under one roof. At e Website Provider
+          Private Limited, we have onboard Dynamic Professionals and the Best
+          Digital Marketers, helping us to create Powerful Brand Experiences for
+          our Clients. Business Owners belonging to different Industries, in
+          need of Business Growth and Marketing needs, resort to us for the best
+          Business.
         </p>
         <button @click="router.push('/about')">Know More</button>
       </div>
@@ -35,25 +44,26 @@
         animationData="https://assets7.lottiefiles.com/packages/lf20_450hEfBjlr.json" />
     </div>
     <ServicePage />
-    <WorkPage />
-    <ContactPage />
+    <!-- <WorkPage />
+    <ContactPage /> -->
+    <FooterPage style="background: #323232; margin: 0px 10%; padding: 16px;"/>
   </div>
 </template>
 
 <script setup>
 import ServicePage from "./ServicePage.vue";
-import WorkPage from "./WorkPage.vue";
-import ContactPage from "./ContactPage.vue";
+import FooterPage from "./FooterLayout.vue";
+// import WorkPage from "./WorkPage.vue";
+// import ContactPage from "./ContactPage.vue";
 import { computed, ref } from "vue";
 import LottieAnimation from "./LottieAnimation.vue";
 import { useRouter } from "vue-router";
 
 const router = useRouter();
 const imgs = [
-  "software.png",
+  "https://1000logos.net/wp-content/uploads/2016/10/Android-Logo-2014.png",
   "webtest.png",
   "webdev.png",
-  "dgtmkt.png",
   "ai.png",
 ];
 
@@ -91,7 +101,6 @@ const showText = computed(() => {
   width: 100%;
   height: 50px;
   justify-content: space-evenly;
-  bottom: 50px;
 }
 .light-weight {
   font-weight: 300;
@@ -111,7 +120,6 @@ const showText = computed(() => {
   justify-content: space-between;
   align-items: center;
   flex-direction: column-reverse;
-  position: relative;
   padding: 16px 0;
 }
 .about-us-block {
@@ -145,7 +153,6 @@ const showText = computed(() => {
     padding-inline: 100px 0;
   }
   .logo-container {
-    position: absolute;
     height: 100px;
   }
   .content-block {

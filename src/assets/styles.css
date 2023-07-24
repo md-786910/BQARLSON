@@ -112,8 +112,12 @@ h3 {
   padding-top: 30px;
 }
 
-
-
+.left-align{
+  text-align: left;
+}
+.highlight {
+  color: #b56cff;
+}
 
 
 

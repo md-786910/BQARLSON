@@ -8,7 +8,7 @@
         <a href="https://twitter.com/ewprovider/" target="blank"><LottieAnimation class="lottie" animationData="https://assets7.lottiefiles.com/private_files/lf30_bbx4oauz.json"/></a>
         <a href="https://www.instagram.com/ewebsiteprovider/" target="blank"><LottieAnimation class="lottie" animationData="https://assets6.lottiefiles.com/packages/lf20_wN134d.json"/></a>
       </div>
-      <p class="cp-text">© Copyright 2022 e-Website Provider. All rights reserved.</p>
+      <p class="cp-text">© Copyright 2022 E-Website Provider Private Limited (EWP PVT. LTD.). All rights reserved.</p>
     </div>
     <div class="footer-block">
       <h1>Quick Links</h1>
