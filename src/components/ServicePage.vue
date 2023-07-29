@@ -28,7 +28,9 @@
             Best Web Design Company in India with talented in-house UI/UX web
             designers & developers in Pune
           </p>
-          <img src="icon-arrow-right.png" alt="" />
+          <router-link to="/service/24">
+            <img src="icon-arrow-right.png" alt="" />
+          </router-link>
         </div>
         <div class="service translate-x-[24px]">
           <div>
@@ -39,7 +41,9 @@
             Award winning agency offering mobile app development services in
             India on iOS and Android platforms
           </p>
-          <img src="icon-arrow-right.png" alt="" />
+          <router-link to="/service/31">
+            <img src="icon-arrow-right.png" alt="" />
+          </router-link>
         </div>
         <div class="service">
           <div>
@@ -50,7 +54,9 @@
             Top digital marketing company in India powered by AI technology,
             market research and data analytics
           </p>
-          <img src="icon-arrow-right.png" alt="" />
+          <router-link to="/service/0">
+            <img src="icon-arrow-right.png" alt="" />
+          </router-link>
         </div>
       </div>
     </div>
@@ -211,7 +217,6 @@ import LottieAnimation from "./LottieAnimation.vue";
 import { ref } from "vue";
 import { Icon } from "@iconify/vue";
 import BestPractices from "@/homenew/BestPractices.vue";
-
 // const cardData = [
 //   {
 //     img: "service/education-logo.jpg",
@@ -334,13 +339,13 @@ const blockData = [
   {
     animation: "https://assets3.lottiefiles.com/packages/lf20_dBF8frvgma.json",
     icon: "service/peoples.svg",
-    value: "20+",
+    value: "100+",
     name: "Happy Clients",
   },
   {
     animation: "https://assets3.lottiefiles.com/packages/lf20_uktq0eKz9C.json",
     icon: "service/check.svg",
-    value: "50+",
+    value: "100+",
     name: "Projects Completed",
   },
   {

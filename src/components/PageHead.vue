@@ -8,11 +8,35 @@
         <li :class="currentRoute === 'work' ? 'active-tab' : ''">Work</li>
         <li :class="currentRoute === 'contact' ? 'active-tab' : ''">Contact</li>
         <li :class="currentRoute === 'special-offers' ? 'active-tab' : ''">
-          special-offers
+          Special Offers
         </li>
       </ul>
     </nav>
-    <div class="dropdown">
+    <el-popover
+      :visible="isVisible"
+      :teleported="true"
+      :show-arrow="false"
+      placement="bottom"
+      width="1000"
+      trigger="hover">
+      <template #reference>
+        <div
+          class="px-[25px] py-[10px] cursor-pointer bg-[yellow] rounded-[8px] text-[black]"
+          @click="isVisible = true">
+          Services
+        </div>
+      </template>
+      <div class="grid md:grid-cols-4 gap-x-8" @click="isVisible = false">
+        <span
+          v-for="(tab, i) in list"
+          :key="tab.key"
+          class="flex items-center w-full border-b-[yellow] border-solid border-b py-2">
+          <span class="bg-[yellow] h-[8px] w-[8px] mr-2 rounded-full"></span>
+          <router-link :to="'/service/' + i">{{ tab.key }}</router-link>
+        </span>
+      </div>
+    </el-popover>
+    <div class="dropdown relative">
       <button class="dropdown-btn" @click="showDropdown = !showDropdown">
         Menu
       </button>
@@ -25,34 +49,11 @@
             Contact
           </li>
           <li :class="currentRoute === 'special-offers' ? 'active-tab' : ''">
-            special-offers
+            Special Offers
           </li>
         </ul>
       </div>
     </div>
-    <el-popover
-      :visible="isVisible"
-      :teleported="true"
-      :show-arrow="false"
-      placement="bottom"
-      width="1000"
-      trigger="hover">
-      <template #reference>
-        <div
-          class="px-[25px] py-[10px] cursor-pointer"
-          @click="isVisible = true">
-          Services
-        </div>
-      </template>
-      <div class="grid md:grid-cols-4 gap-4 p-2" @click="isVisible = false">
-        <router-link
-          v-for="(tab, i) in list"
-          :key="tab.key"
-          :to="'/service/' + i"
-          >{{ tab.key }}</router-link
-        >
-      </div>
-    </el-popover>
   </header>
 </template>
 

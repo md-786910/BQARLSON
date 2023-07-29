@@ -21,9 +21,13 @@ import WhyDmkConst from "./WhyDmkConst.vue";
 import serviceData from "./List";
 import { useRoute } from "vue-router";
 import { ref, watch } from "vue";
-const service = ref(serviceData[0]);
+const service = ref();
 const route = useRoute();
-watch(route, () => {
-  service.value = serviceData?.[route.params.page];
-});
+watch(
+  route,
+  () => {
+    service.value = serviceData?.[route.params.page];
+  },
+  { immediate: true }
+);
 </script>

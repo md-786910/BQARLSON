@@ -27,37 +27,37 @@
       <div class="card">
         <img src="./images/img_1.webp" alt="" />
         <h5>EXPERIENCE</h5>
-        <span>22+ years in industry</span>
+        <span>5+ years in industry</span>
       </div>
 
       <div class="card">
         <img src="./images/img_2.webp" alt="" />
         <h5>INNOVATION</h5>
-        <span>4200+ Websites and applications designed</span>
+        <span>100+ Websites and applications designed</span>
       </div>
 
       <div class="card">
         <img src="./images/img_3.webp" alt="" />
         <h5>CUSTOMER BASE</h5>
-        <span>2500+ Satisfied customers worldwide</span>
+        <span>100+ Satisfied customers worldwide</span>
       </div>
 
       <div class="card">
         <img src="./images/img_4.webp" alt="" />
         <h5>WORK</h5>
-        <span>100+ Government web applications</span>
+        <span>100+ Web applications</span>
       </div>
 
       <div class="card">
         <img src="./images/img_5.webp" alt="" />
         <h5>EXPERTISE</h5>
-        <span>200+ E-comm Payment Gateway integrations</span>
+        <span>100+ E-comm Payment Gateway integrations</span>
       </div>
 
       <div class="card">
         <img src="./images/img_6.webp" alt="" />
         <h5>LOCAL - GLOBAL</h5>
-        <span>2000+ Man years in experience</span>
+        <span>100+ Man years in experience</span>
       </div>
     </div>
     <h2>Our Clients</h2>

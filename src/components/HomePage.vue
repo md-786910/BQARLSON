@@ -37,7 +37,7 @@
           need of Business Growth and Marketing needs, resort to us for the best
           Business.
         </p>
-        <button @click="router.push('/about')">Know More</button>
+        <button @click="router.push('/about')" class="bg-[yellow] text-[blue]">Know More</button>
       </div>
       <LottieAnimation
         class="w-50"
