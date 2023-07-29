@@ -70,13 +70,11 @@
       passionate about delivering high-quality solutions that exceed our
       clients' expectations.
     </p>
-    <FooterLayout />
   </div>
 </template>
 
 <script setup>
 import CardView from "./CardView.vue";
-import FooterLayout from "./FooterLayout.vue";
 import LottieAnimation from "./LottieAnimation.vue";
 
 const cardData = [

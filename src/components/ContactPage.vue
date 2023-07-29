@@ -28,7 +28,7 @@
           v-model="formData.email"
           required />
         <label>Services</label>
-        <select v-model="formData.service" required>
+        <select v-model="formData.service" required class="text-[#000]">
           <option value="" disabled hidden>Select an option</option>
           <option value="UI / UX Design">UI / UX Design</option>
           <option value="software Development">Software Development</option>
@@ -135,13 +135,11 @@
         loading="lazy"
         referrerPolicy="no-referrer-when-downgrade"></iframe>
     </div>
-    <FooterLayout />
   </div>
 </template>
 
 <script setup>
 import { ref } from "vue";
-import FooterLayout from "./FooterLayout.vue";
 import LottieAnimation from "./LottieAnimation.vue";
 
 const formDefaults = {
@@ -214,18 +212,24 @@ function onFormSubmit() {
 
 @keyframes circle {
   0% {
-    transform: rotate(0deg) translate(-70px) rotate(0deg);
+    transform: rotate(-180deg) translate(-70px);
+  }
+  50% {
+    background: #ff777f;
   }
   100% {
-    transform: rotate(360deg) translate(-70px) rotate(-360deg);
+    transform: rotate(180deg) translate(-70px);
   }
 }
 @keyframes circle-2 {
   0% {
-    transform: rotate(180deg) translate(-70px) rotate(0deg);
+    transform: rotate(180deg) translate(-70px);
+  }
+  50% {
+    background: #2d65e2;
   }
   100% {
-    transform: rotate(-180deg) translate(-70px) rotate(-360deg);
+    transform: rotate(-180deg) translate(-70px);
   }
 }
 .mid-2 {

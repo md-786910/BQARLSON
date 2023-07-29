@@ -75,6 +75,7 @@
 .best-practice-container {
   display: grid;
   gap: 32px;
+  margin-top: 16px;
 }
 
 @media only screen and (min-width: 800px) {

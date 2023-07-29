@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 *,
 *::before,
 *::after {
@@ -12,24 +15,24 @@
 }
 
 *::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px #00000030;
+  box-shadow: inset 0 0 6px #ffffff30;
   background-clip: content-box;
 }
 
 
 *::-webkit-scrollbar-track:hover {
-  outline: 1px solid #00000030;
-  background-color: #00000030;
+  outline: 1px solid #ffffff30;
+  background-color: #ffffff30;
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #00000030;
-  outline: 1px solid #00000030;
+  background-color: #ffffff30;
+  outline: 1px solid #ffffff30;
   border-radius: 5px;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-  background: #00000030;
+  background: #ffffff30;
 }
 
 body {
@@ -43,7 +46,7 @@ body {
 #app {
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  overflow: hidden auto;
 }
 
 .page-container {
@@ -156,8 +159,7 @@ h3 {
 
 .slide-left-enter-active,
 .slide-left-leave-active {
-  transition: all 1s ease-in-out;
-  position: absolute;
+  transition: all 0.5s ease-in-out;
 }
 .slide-left-enter-to {
   right: 0%;

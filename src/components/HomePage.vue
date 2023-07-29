@@ -46,13 +46,11 @@
     <ServicePage />
     <!-- <WorkPage />
     <ContactPage /> -->
-    <FooterPage style="background: #323232; margin: 0px 10%; padding: 16px;"/>
   </div>
 </template>
 
 <script setup>
 import ServicePage from "./ServicePage.vue";
-import FooterPage from "./FooterLayout.vue";
 // import WorkPage from "./WorkPage.vue";
 // import ContactPage from "./ContactPage.vue";
 import { computed, ref } from "vue";

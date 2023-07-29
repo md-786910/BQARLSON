@@ -18,7 +18,7 @@
           <img src="Banner5.jpg" alt="" class="banner5" />
         </div>
       </div>
-      <div class="content">
+      <div class="content py-8 md:px-8">
         <div class="service">
           <div>
             <img src="Website-Designing-Banner.png" alt="" />
@@ -30,7 +30,7 @@
           </p>
           <img src="icon-arrow-right.png" alt="" />
         </div>
-        <div class="service">
+        <div class="service translate-x-[24px]">
           <div>
             <img src="Mobile-Apps-Banner.png" alt="" />
             <h4>Mobile Apps</h4>
@@ -66,11 +66,16 @@
     </p>
     <el-tabs v-model="activeName" class="service-tabs">
       <el-tab-pane
+        class="grid grid-cols-4 gap-4 place-items-center"
         v-for="(icons, key) in services"
         :key="key"
         :label="key"
         :name="key">
-        <Icon v-for="icon in icons" :key="icon" :icon="icon" />
+        <Icon
+          v-for="icon in icons"
+          :key="icon"
+          :icon="icon"
+          class="text-[50px]" />
       </el-tab-pane>
     </el-tabs>
     <BestPractices />
@@ -373,19 +378,12 @@ const category = [
   --el-text-color-primary: #fff;
 }
 .el-tabs__nav {
+  display: grid;
   justify-content: space-evenly;
   width: 100%;
 }
 .el-tabs__nav .el-tabs__item {
   font-size: 1.2rem;
-}
-.el-tab-pane {
-  display: flex;
-  justify-content: space-between;
-  padding: 32px 16px;
-}
-.el-tab-pane svg {
-  font-size: 3rem;
 }
 .container {
   margin: 50px 0 0;
@@ -403,13 +401,11 @@ const category = [
 .container .content .service {
   position: relative;
   z-index: 5;
-  width: 500px;
-  height: 200px;
   display: flex;
   align-items: center;
   box-shadow: 0 0px 16px #ffffffa1;
-  margin: 20px 0;
-  padding: 10px;
+  margin: 32px 0;
+  padding: 16px;
   border-radius: 16px;
   background-color: #fff;
 }
@@ -488,6 +484,9 @@ const category = [
 }
 
 @media (min-width: 1000px) {
+  .el-tabs__nav {
+    display: flex;
+  }
   .list {
     grid-template-columns: repeat(5, 1fr);
   }
@@ -528,6 +527,8 @@ const category = [
 .container .displayImg {
   position: relative;
   border-radius: 50%;
+  max-height: 100vw;
+  max-width: 100vw;
   height: 500px;
   width: 500px;
   display: flex;
