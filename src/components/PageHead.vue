@@ -18,10 +18,10 @@
       :show-arrow="false"
       placement="bottom"
       width="1000"
-      trigger="hover">
+      trigger="click">
       <template #reference>
         <div
-          class="px-[25px] py-[10px] cursor-pointer bg-[yellow] rounded-[8px] text-[black]"
+          class="px-[25px] py-[10px] cursor-pointer rounded-[8px]"
           @click="isVisible = true">
           Services
         </div>
@@ -38,7 +38,7 @@
     </el-popover>
     <div class="dropdown relative">
       <button class="dropdown-btn" @click="showDropdown = !showDropdown">
-        Menu
+        <Icon icon="material-symbols:menu" class="text-[32px]" />
       </button>
       <div class="dropdown-content" v-if="showDropdown">
         <ul @click="onTabClick">
@@ -61,6 +61,7 @@
 import list from "/src/homenew/Components/List";
 import { ref, computed } from "vue";
 import { useRouter } from "vue-router";
+import { Icon } from "@iconify/vue";
 
 const router = useRouter();
 const isVisible = ref(false);

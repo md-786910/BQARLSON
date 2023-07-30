@@ -19,7 +19,6 @@
   background-clip: content-box;
 }
 
-
 *::-webkit-scrollbar-track:hover {
   outline: 1px solid #ffffff30;
   background-color: #ffffff30;
@@ -58,7 +57,7 @@ body {
 
 .grid-layout {
   display: grid;
-  grid-template-columns: repeat(1,1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 25px;
   margin-top: 25px;
 }
@@ -69,17 +68,17 @@ body {
     padding: 10px 80px;
   }
   .grid-layout {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media only screen and (min-width: 1350px) {
   .achievements {
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .grid-layout {
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .w-50 {
     width: 50%;
@@ -89,73 +88,34 @@ body {
 h1 {
   text-align: center;
   font-size: 1.5rem;
-  margin-top: 10px;
 }
 
 h2 {
   text-align: center;
   font-size: 1.25rem;
-  margin-top: 10px;
 }
 
 p {
   font-size: 1rem;
   text-align: center;
-  margin-top: 10px;
   color: #ffffffaa;
 }
 
 h3 {
   font-size: 1rem;
   text-align: center;
-  margin-top: 10px;
 }
 
 .heading {
   padding-top: 30px;
 }
 
-.left-align{
+.left-align {
   text-align: left;
 }
 .highlight {
   color: #b56cff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .slide-left-enter-active,
 .slide-left-leave-active {

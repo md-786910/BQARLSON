@@ -2,7 +2,7 @@
   <div class="home-page">
     <div class="home-container">
       <div class="w-50 home-texts">
-        <h1 class="light-weight">{{ showText.f }}</h1>
+        <h1>{{ showText.f }}</h1>
         <h1>{{ showText.s }}</h1>
         <h1>{{ showText.t }}</h1>
         <div class="word-animation">
@@ -37,7 +37,9 @@
           need of Business Growth and Marketing needs, resort to us for the best
           Business.
         </p>
-        <button @click="router.push('/about')" class="bg-[yellow] text-[blue]">Know More</button>
+        <button @click="router.push('/about')" class="bg-[yellow] text-[blue]">
+          Know More
+        </button>
       </div>
       <LottieAnimation
         class="w-50"
@@ -100,9 +102,6 @@ const showText = computed(() => {
   height: 50px;
   justify-content: space-evenly;
 }
-.light-weight {
-  font-weight: 300;
-}
 .home-page {
   height: 100%;
   width: 100%;
@@ -112,7 +111,7 @@ const showText = computed(() => {
 }
 .home-container {
   width: 100%;
-  min-height: 100%;
+  height: calc(100vh - 50px);
   overflow: hidden;
   display: flex;
   justify-content: space-between;
@@ -174,6 +173,7 @@ const showText = computed(() => {
     display: flex;
   }
   .home-container {
+    height: 100%;
     flex-direction: row;
   }
   h1 {

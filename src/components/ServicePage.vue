@@ -28,7 +28,7 @@
             Best Web Design Company in India with talented in-house UI/UX web
             designers & developers in Pune
           </p>
-          <router-link to="/service/24">
+          <router-link to="/service/24" class="w-[50px]">
             <img src="icon-arrow-right.png" alt="" />
           </router-link>
         </div>
@@ -41,7 +41,7 @@
             Award winning agency offering mobile app development services in
             India on iOS and Android platforms
           </p>
-          <router-link to="/service/31">
+          <router-link to="/service/31" class="w-[50px]">
             <img src="icon-arrow-right.png" alt="" />
           </router-link>
         </div>
@@ -54,7 +54,7 @@
             Top digital marketing company in India powered by AI technology,
             market research and data analytics
           </p>
-          <router-link to="/service/0">
+          <router-link to="/service/0" class="w-[50px]">
             <img src="icon-arrow-right.png" alt="" />
           </router-link>
         </div>
@@ -81,7 +81,7 @@
           v-for="icon in icons"
           :key="icon"
           :icon="icon"
-          class="text-[50px]" />
+          class="w-[50px] h-[50px]" />
       </el-tab-pane>
     </el-tabs>
     <BestPractices />
@@ -471,16 +471,12 @@ const category = [
   align-items: center;
   margin: 16px 0;
 }
-.list li p {
-  color: #fff;
-}
 .list .icon {
-  border: 1px solid #4a26cc;
   border-radius: 50%;
   width: 100px;
   height: 100px;
   padding: 16px;
-  background-color: #fff;
+  background-color: #ffff00dd;
 }
 
 .list .icon img {
