@@ -21,7 +21,7 @@
       trigger="click">
       <template #reference>
         <div
-          class="px-[25px] py-[10px] cursor-pointer rounded-[8px]"
+          class="px-[25px] py-[10px] cursor-pointer rounded-[8px] hover:bg-[#fff] hover:text-[#000]"
           @click="isVisible = true">
           Services
         </div>
@@ -124,6 +124,11 @@ li {
   height: 100%;
   padding: 10px 25px;
   font-weight: 400;
+}
+ul li:hover {
+  color: #000;
+  background: #fff;
+  border-radius: 8px;
 }
 img.logo {
   height: 100%;
