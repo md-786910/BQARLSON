@@ -100,20 +100,6 @@ const cardData = [
       "I am dedicated to ensuring that we deliver top-notch and innovative website solutions to help businesses thrive online.",
   },
   {
-    img: "about/roshan.jpeg",
-    title: "Roshan Kumar Jha",
-    subTitle: "Architect",
-    description:
-      "I am passionate about the latest frontend development technologies and create innovative solutions that meet user expectations.",
-  },
-  {
-    img: "about/pooja.jpeg",
-    title: "Pooja Pandey",
-    subTitle: "Frontend Manager",
-    description:
-      "I am passionate about the latest frontend development technologies and create innovative solutions that meet user expectations.",
-  },
-  {
     img: "about/prince.jpg",
     title: "Prince Mishra",
     subTitle: "Chief Operating Officer",

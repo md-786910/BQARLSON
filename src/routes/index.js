@@ -46,6 +46,11 @@ function getRoutes() {
       name: "intern",
       component: () => import("@/components/InternDetail.vue"),
     },
+    {
+      path: "/internship",
+      name: "internship",
+      component: () => import("@/components/InternShip.vue"),
+    },
   ];
 }
 

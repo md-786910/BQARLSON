@@ -10,6 +10,9 @@
         <li :class="currentRoute === 'special-offers' ? 'active-tab' : ''">
           Special Offers
         </li>
+        <li :class="currentRoute === 'internship' ? 'active-tab' : ''">
+          Internship
+        </li>
       </ul>
     </nav>
     <el-popover
@@ -51,6 +54,9 @@
           <li :class="currentRoute === 'special-offers' ? 'active-tab' : ''">
             Special Offers
           </li>
+          <li :class="currentRoute === 'internship' ? 'active-tab' : ''">
+            Internship
+          </li>
         </ul>
       </div>
     </div>
@@ -77,6 +83,8 @@ function onTabClick(e) {
     router.push("/contact");
   } else if (route.includes("special")) {
     router.push("/special-offers");
+  } else if (route.includes("internship")) {
+    router.push("/internship");
   } else {
     router.push("/home");
   }
@@ -121,6 +129,7 @@ ul {
   position: relative;
 }
 li {
+  @apply truncate;
   height: 100%;
   padding: 10px 25px;
   font-weight: 400;
