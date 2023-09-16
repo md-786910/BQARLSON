@@ -1,6 +1,8 @@
 <template>
   <header class="header">
+   <div class="img-container">
     <img class="logo" @click="onTabClick" src="logo-home.png" alt="EWP" />
+   </div>
     <nav>
       <ul @click="onTabClick">
         <li :class="currentRoute === 'home' ? 'active-tab' : ''">Home</li>
@@ -13,6 +15,12 @@
         <li :class="currentRoute === 'internship' ? 'active-tab' : ''">
           Internship
         </li>
+        <li :class="currentRoute === 'internship' ? 'active-tab' : ''">
+            <a href="https://e-certification.vercel.app/" target="_blank">
+
+              Download Certificate
+            </a>
+          </li>
       </ul>
     </nav>
     <el-popover
@@ -57,6 +65,12 @@
           <li :class="currentRoute === 'internship' ? 'active-tab' : ''">
             Internship
           </li>
+          <li :class="currentRoute === 'internship' ? 'active-tab' : ''">
+            <a href="https://e-certification.vercel.app/" target="_blank">
+
+              Download Certificate
+            </a>
+          </li>
         </ul>
       </div>
     </div>
@@ -96,10 +110,13 @@ function onTabClick(e) {
 .active-tab {
   color: #0078ff;
 }
+
 header.header {
   display: flex;
   justify-content: space-between;
-  height: 40px;
+  height: 80px;
+  padding: 15px 0;
+  border-bottom: 1px solid rgb(91, 91, 90);
   width: 100%;
   padding-inline: 20px;
   color: #fff;
@@ -139,9 +156,12 @@ ul li:hover {
   background: #fff;
   border-radius: 8px;
 }
+
 img.logo {
+  display: block;
+  object-fit: cover;
   height: 100%;
-  padding: 5px;
+  height: 100%;
   cursor: pointer;
 }
 li:hover {

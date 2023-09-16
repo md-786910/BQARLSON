@@ -93,6 +93,20 @@ const cardData = [
       "I am committed to ensuring that we provide our clients with high-quality and affordable website solutions.",
   },
   {
+    img: "about/md_ashif.jpeg",
+    title: "Md Ashif Reza",
+    subTitle: "CTO",
+    description:
+      "As a CTO, my dedication lies in delivering top-notch, cost-effective website solutions to our clients, ensuring their satisfaction and our technological excellence.",
+  },
+  {
+    img: "about/suva.jpeg",
+    title: "Suva Duley",
+    subTitle: "Full Stack Developer Team Lead",
+    description:
+      "As a Team Lead, I'm dedicated to delivering top-notch, budget-friendly website solutions to meet our clients' needs and exceed their expectations.",
+  },
+  {
     img: "about/asif.jpeg",
     title: "Asif Ullah",
     subTitle: "Director & CO-Founder",

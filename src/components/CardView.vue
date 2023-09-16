@@ -1,7 +1,7 @@
 <template>
   <div class="card-view">
     <LottieAnimation v-if="data.animation" :animationData="data.animation"/>
-    <img v-else-if="data.img" :src="data.img" :alt="data.title || data.subTitle">
+      <img v-else-if="data.img" :src="data.img" :alt="data.title || data.subTitle">
     <h2 v-if="data.title">{{ data.title }}</h2>
     <h3 v-if="data.subTitle">{{ data.subTitle }}</h3>
     <p v-if="data.description">{{ data.description }}</p>
