@@ -2,7 +2,7 @@
   <div class="main-container">
     <h2>Why Choose Us?</h2>
     <p class="left-align md:px-[10%]">
-      At e Website Provider Private Limited, we are a leading web-based
+      At B-Qarlson Software Technologies Private Limited, we are a leading web-based
       interactive marketing agency, specializing in top-notch websites and
       impactful online campaigns. Our strategic approach, cutting-edge
       technology, and global reach ensure superior brand experiences and

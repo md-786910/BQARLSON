@@ -13,9 +13,9 @@
 const faqs = [
   {
     question:
-      "Why Choose E-Website Provider as your strategic digital partner ?",
+      "Why Choose B-Qarlson Software Technologies as your strategic digital partner ?",
     answer:
-      "E-Website Provider is a leading website development company in Pune. As an established digital marketing company in Pune, we focus on offering gamut of online services and believe in end-to-end solutions for our clients. Our expert team of website designers, developers and digital marketers make sure to provide conversion-oriented services to boost your overall revenue and increase ROI. Avail our services and enhance your online reputation.",
+      "B-Qarlson Software Technologies is a leading website development company in Pune. As an established digital marketing company in Pune, we focus on offering gamut of online services and believe in end-to-end solutions for our clients. Our expert team of website designers, developers and digital marketers make sure to provide conversion-oriented services to boost your overall revenue and increase ROI. Avail our services and enhance your online reputation.",
   },
 
   {
@@ -26,9 +26,9 @@ const faqs = [
   },
 
   {
-    question: "What Kind of services are provided by E-Website Provider ?",
+    question: "What Kind of services are provided by B-Qarlson Software Technologies ?",
     answer:
-      "Since 2022 E-Website Provider has been providing various digital services to the clients world wide. Below is a list of few of the popular services, Website design, Web Development, Mobile app development, SEO and Digital Marketing, Social Media Marketing",
+      "Since 2022 B-Qarlson Software Technologies has been providing various digital services to the clients world wide. Below is a list of few of the popular services, Website design, Web Development, Mobile app development, SEO and Digital Marketing, Social Media Marketing",
   },
 ];
 </script>

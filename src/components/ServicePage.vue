@@ -4,6 +4,7 @@
     <!-- <div class="grid-layout">
       <card-view v-for="data in cardData" :key="data.title" :data="data" />
     </div> -->
+    
     <div class="container">
       <div>
         <div class="sub-head">

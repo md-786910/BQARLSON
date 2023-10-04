@@ -2,7 +2,7 @@
   <div class="page-container">
     <h1 class="pb-4">Internship</h1>
     <p class="text-left">
-      Welcome to the E Website Provider PVT. LTD. Internship Program Application
+      Welcome to the B-Qarlson Software Technologies PVT. LTD. Internship Program Application
       Form! We're excited that you're interested in joining our team and gaining
       valuable experience in your chosen field. <br />
       Our internship program is designed to provide hands-on experience and
@@ -23,7 +23,7 @@
     <p class="text-left">
       If you have any questions or need further information, please contact at
       hr@ewebsiteprovider.com or 7324865944.<br />
-      Thank you for your interest in the E Website Provider PVT. LTD. Internship
+      Thank you for your interest in the B-Qarlson Software Technologies PVT. LTD. Internship
       Program. We look forward to reviewing your application and potentially
       welcoming you to our team!
     </p>

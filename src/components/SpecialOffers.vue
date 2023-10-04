@@ -59,7 +59,7 @@
       <div class="top">
         <h1>Digital Services</h1>
         <p>
-          As your complete Digital Agency, we at E-Website Provider evolve your
+          As your complete Digital Agency, we at B-Qarlson Software Technologies evolve your
           marketing strategy to all digitized versions. Designing needs thorough
           study and detailing of your USPs so as to convert them into the web
           versions. Checkout our web design services ranging from responsive

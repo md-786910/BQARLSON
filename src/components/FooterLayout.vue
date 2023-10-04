@@ -29,7 +29,7 @@
         /></a>
       </div>
       <p class="cp-text">
-        © Copyright 2022 E-Website Provider Private Limited (EWP PVT. LTD.). All
+        © Copyright 2022 Bharat Qarlson Software Technologies Private Limited . All
         rights reserved.
       </p>
     </div>
@@ -83,8 +83,8 @@
         <img src="mobile.svg" alt="location" /> +1 9296470461 / +91 8873732631 /
         +91 8800604320 / +91 7324865944
       </p>
-      <p><img src="mail.svg" alt="location" /> ceo@ewebsiteprovider.com</p>
-      <p><img src="mail.svg" alt="location" /> support@ewebsiteprovider.com</p>
+      <p><img src="mail.svg" alt="location" /> ceo@bqarlsonsoftwaretechnologies.com</p>
+      <p><img src="mail.svg" alt="location" /> support@bqarlsonsoftwaretechnologies.com</p>
     </div>
   </footer>
 </template>

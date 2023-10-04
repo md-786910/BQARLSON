@@ -3,26 +3,22 @@
     <div class="about-content">
       <h1>Our Services and Expertise</h1>
       <div class="content-block">
-        <p class="w-50">
-          E-Website Provider Private Limited (EWP PVT. LTD.) is a professional
-          Web Services ,Mobile Apps Development and Digital Marketing Company.We
-          are providing proactive IT and Digital Marketing Solutions for more
-          than 1 years to Small-To-high Sized Businesses.We focus on fostering
-          the areas like Web Design & Development, Mobile Apps Development ,SEO,
-          SMM, Digital Marketing Services, Web Advertisements, and Developing
-          Creative Content resulting in Fully Managed and Highly Successful
-          Online Marketing Campaigns. We aim to provide the best possible
-          Strategic Outcome for our valuable clients through our Affordable
-          Digital Marketing Services under one roof. At e Website Provider
-          Private Limited, we have onboard Dynamic Professionals and the Best
-          Digital Marketers, helping us to create Powerful Brand Experiences for
-          our Clients. Business Owners belonging to different Industries, in
-          need of Business Growth and Marketing needs, resort to us for the best
+        <p class="w-50 about-heading">
+          Bharat Qarlson Software Technologies Private Limited is a professional
+          Web Services,Mobile Apps Development and Digital Marketing Company.We
+          are providing proactive IT and Digital Marketing Solutions for more than
+          1 years to Small-To-high Sized Businesses.We focus on fostering the areas
+          like Web Design & Development, Mobile Apps Development ,SEO, SMM, Digital
+          Marketing Services, Web Advertisements, and Developing Creative Content resulting
+          in Fully Managed and Highly Successful Online Marketing Campaigns. 
+          We aim to provide the best possible Strategic Outcome for our valuable clients through our
+          Affordable Digital Marketing Services under one roof. At B-Qarlson Software Technologies
+          Private Limited, we have onboard Dynamic Professionals and the Best Digital Marketers, helping
+          us to create Powerful Brand Experiences for our Clients. Business Owners belonging to different
+          Industries, in need of Business Growth and Marketing needs, resort to us for the best
           Business.
         </p>
-        <LottieAnimation
-          class="w-50"
-          animationData="https://assets9.lottiefiles.com/packages/lf20_RkDrfCI7wQ.json" />
+        <LottieAnimation class="w-50" animationData="https://assets9.lottiefiles.com/packages/lf20_RkDrfCI7wQ.json" />
       </div>
       <h1>Our Mission and Values</h1>
       <p>
@@ -32,39 +28,33 @@
         we do.
       </p>
       <div class="content-block">
-        <LottieAnimation
-          class="w-50"
-          animationData="https://assets2.lottiefiles.com/packages/lf20_qq5qecip.json" />
-        <p class="w-50">
-          Our Services: At E-Website Provider Private Limited (EWP PVT. LTD.),
-          We Provide Website Designing and Development ( UI / UX Design ),
-          Software Development, Mobile Application Development, Testing and
-          Quality Assurance, Search Engine Optimization, Site Mapping, Data
-          Analytics, IT Support, Google My Business Listing , Digital Marketing,
-          Manage IT services Bulk SMS Services, Professional Mail Setup , Logo
-          Designing, and many more...
+        <LottieAnimation class="w-50" animationData="https://assets2.lottiefiles.com/packages/lf20_qq5qecip.json" />
+        <p class="w-50 heading-content">
+          Our Services: At Bharat Qarlson Software Technologies Private Limited,
+          We Provide Website Designing and Development( UI/UX Design),
+          Software Development, Mobile Application Development , Testing and
+          Quality Assurance , Search Engine Optimization , Site Mapping,Data
+          Analytics , IT Support , Google My Business Listing , Digital Marketing,
+          Manage IT services Bulk SMS Services, Professional Mail Setup, Logo
+          Designing,and many more...
         </p>
       </div>
     </div>
     <h1 class="heading">Our Team and Culture</h1>
     <p>
-      Our team of skilled designers and developers works closely with our
-      clients to understand their unique business requirements and provide
-      customized solutions that align with their goals. At EWP, we pride
+      Our team of skilled designers and developers works closely with our clients to understand 
+      their unique business requirements and provide customized solutions that align with their goals. At B-Qarlson Software Technologies Private Limited, we pride
       ourselves on providing high-quality website design and development
       services that exceed our clients' expectations. We offer a wide range of
       website solutions that cater to all types of businesses, from small
       start-ups to large corporations.
     </p>
     <div class="grid-layout">
-      <card-view
-        v-for="data in cardData"
-        :key="data.title || data.subTitle"
-        :data="data" />
+      <card-view v-for="data in cardData" :key="data.title || data.subTitle" :data="data" />
     </div>
     <h1 class="heading">History</h1>
     <p>
-      Founded in 2022, E-Website Provider Private Limited (EWP PVT. LTD.) has
+      Founded in 2022, Bharat Qarlson Software Technologies Private Limited has
       been providing top-notch web development services to clients across the
       globe. We have a team of experienced and skilled developers who are
       passionate about delivering high-quality solutions that exceed our
@@ -146,18 +136,42 @@ const cardData = [
 .content-block {
   align-items: center;
   margin: 20px;
+
 }
 
+.about-content {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.about-heading {
+  text-align: justify;
+  word-spacing: 0.01px;
+  letter-spacing: 0.01px;
+}
+.heading-content{
+  text-align: left;
+  word-spacing: 0.01px;
+  letter-spacing: 0.01px;
+}
 @media only screen and (min-width: 1350px) {
   .content-block {
     display: flex;
   }
-  p {
+
+  /* p {
     letter-spacing: 4px;
     padding: 10px;
     line-height: 30px;
     font-size: 1rem;
+  } */
+  p {
+    letter-spacing: 2.6px;
+    padding: 10px;
+    line-height: 28px;
+    font-size: 1.1rem;
   }
+
   .w-50 {
     width: 50%;
   }

@@ -21,18 +21,17 @@
     <div class="content-block">
       <div class="about-us-block w-50">
         <p>
-          E-Website Provider Private Limited (EWPPL) is a professional Web
+          Bharat Qarlson Software Technologies Private Limited is a professional Web
           Services ,Mobile Apps Development and Digital Marketing Company.We are
           providing proactive IT and Digital Marketing Solutions for more than 1
-          years to Small-To-high Sized Businesses.We focus on fostering the
-          areas like Web Design & Development, Mobile Apps Development ,SEO,
-          SMM, Digital Marketing Services, Web Advertisements, and Developing
-          Creative Content resulting in Fully Managed and Highly Successful
-          Online Marketing Campaigns. We aim to provide the best possible
-          Strategic Outcome for our valuable clients through our Affordable
-          Digital Marketing Services under one roof. At e Website Provider
-          Private Limited, we have onboard Dynamic Professionals and the Best
-          Digital Marketers, helping us to create Powerful Brand Experiences for
+          years to Small-To-high Sized Businesses.We focus on fostering the areas 
+          like Web Design & Development, Mobile Apps Development ,SEO,SMM, Digital
+          Marketing Services, Web Advertisements, and Developing Creative Content 
+          resulting in Fully Managed and Highly Successful Online Marketing Campaigns. 
+          We aim to provide the best possible Strategic Outcome for our valuable clients 
+          through our Affordable Digital Marketing Services under one roof. 
+          At B-Qarlson Software Technologies Private Limited, we have onboard Dynamic Professionals
+          and the Best Digital Marketers, helping us to create Powerful Brand Experiences for
           our Clients. Business Owners belonging to different Industries, in
           need of Business Growth and Marketing needs, resort to us for the best
           Business.
@@ -156,10 +155,10 @@ const showText = computed(() => {
     display: flex;
   }
   p {
-    letter-spacing: 4px;
+    letter-spacing: 2.5px;
     padding: 10px;
-    line-height: 30px;
-    font-size: 1.2rem;
+    line-height: 28px;
+    font-size: 1.1rem;
   }
   .w-50 {
     width: 50%;

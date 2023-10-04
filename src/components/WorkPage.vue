@@ -2,7 +2,7 @@
   <div class="page-container">
     <div class="page-content">
     <div class="w-50">
-      <h1>Our Work</h1>
+      <h1>Our Work</h1> 
       <h2>We provide a comprehensive range of website design and development services to meet the needs of our clients.</h2>
       <p>The "Work" page showcases our portfolio of web development projects across various industries. Our services encompass a wide range of website types, including Business Websites, Education Websites, Agency Websites, E-commerce Websites, Hotel Websites, Portfolio Websites, Blog Websites, Real Estate Websites, Medical Shop Websites, Online Booking Websites, Small Finance Bank Websites, and many more. We have successfully created tailored solutions for clients in these diverse sectors, addressing their specific needs and providing them with effective online platforms to showcase their products, services, or information. Our portfolio demonstrates our versatility and expertise in delivering high-quality websites across different industries and business sectors.</p>
     </div>
@@ -110,15 +110,25 @@ const workData = [
 h1 {
   line-height: 30px;
   font-size: 2.5rem;
+  margin: 20px 0px;
+  padding: 10px;
 }
 h2,
 p {
   line-height: 30px;
-  margin-top: 20px;
+  margin: 20px 0px;
+  padding:5px;
+  text-align: left;
+}
+.heading{
+  margin: 100px 0px;
+  padding: 5px;
 }
 @media only screen and (min-width: 1350px) {
   .page-content {
     display: flex;
+    margin-top: 25px;
+    
   }
 }
 </style>

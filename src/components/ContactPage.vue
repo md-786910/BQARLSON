@@ -72,15 +72,15 @@
       <div>
         <div>
           <h1><span>General</span> Enquiries</h1>
-          <p>info@ewebsiteprovider.com</p>
+          <p>info@bqarlsonsoftwaretechnologies.com</p>
         </div>
         <div class="mid-2">
           <h1><span>Support</span> Enquiries</h1>
-          <p>support@ewebsiteprovider.com</p>
+          <p>support@bqarlsonsoftwaretechnologies.com</p>
         </div>
         <div>
           <h1><span>Hiring</span>Enquiries</h1>
-          <p>hr@ewebsiteprovider.com</p>
+          <p>hr@bqarlsonsoftwaretechnologies.com</p>
         </div>
       </div>
     </div>
@@ -108,8 +108,8 @@
           </div>
         </div>
         <h4>Email us</h4>
-        <p>support@ewebsiteprovider.com</p>
-        <p>ceo@ewebsiteprovider.com</p>
+        <p>support@bqarlsonsoftwaretechnologies.com</p>
+        <p>ceo@bqarlsonsoftwaretechnologies.com</p>
       </div>
       <div class="card">
         <div class="image-container">
