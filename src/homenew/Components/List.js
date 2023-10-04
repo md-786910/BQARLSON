@@ -5,19 +5,19 @@ export default [
 
     heading1: "Digital Marketing Company in Pune, India",
     description1:
-      "E-Website Provider is a forward thinking and creative Digital Marketing company based in Pune that provides consultancy in digital internet marketing and have a proven track record in helping small, medium and large businesses achieve high levels of success. Our Digital Marketing services can be tailored for your needs, be it large, medium or small campaigns. E-Website Provider are a leading internet and Digital Marketing Company In Pune committed in helping businesses to meet their online potential.",
+      "B-Qarlson Software Technologies is a forward thinking and creative Digital Marketing company based in Pune that provides consultancy in digital internet marketing and have a proven track record in helping small, medium and large businesses achieve high levels of success. Our Digital Marketing services can be tailored for your needs, be it large, medium or small campaigns. B-Qarlson Software Technologies are a leading internet and Digital Marketing Company In Pune committed in helping businesses to meet their online potential.",
     source1:
       "https://img.freepik.com/premium-photo/digital-marketing-new-startup-project-online-search-engine-optimisation_36325-2205.jpg",
 
     heading2: "Get more leads and sales with Digital Marketing",
     description2:
-      "Do you have an idea for an app and are looking for a trusted app design and development agency in India ? Look no further !The experienced digital marketing professionals at E-Website Provider work with you to develop a media strategy, conduct media research, create a media plan and ultimately help you to launch and optimize your online digital campaign.E-Website Provider offers complete Digital Marketing package including web design, website development, Internet marketing.Our range of internet marketing services includes search engine optimization(SEO), Google Ads, email marketing solution etc.",
+      "Do you have an idea for an app and are looking for a trusted app design and development agency in India ? Look no further !The experienced digital marketing professionals at B-Qarlson Software Technologies work with you to develop a media strategy, conduct media research, create a media plan and ultimately help you to launch and optimize your online digital campaign.B-Qarlson Software Technologies offers complete Digital Marketing package including web design, website development, Internet marketing.Our range of internet marketing services includes search engine optimization(SEO), Google Ads, email marketing solution etc.",
 
     cards: [
       {
         heading: "Overview and Process",
         subheading:
-          "Mobile App Experts : E-Website Provider end to end solution partner",
+          "Mobile App Experts : B-Qarlson Software Technologies end to end solution partner",
       },
       {
         img: "https://www.dimakhconsultants.com/img/digital-marketing/icon1.png",
@@ -48,7 +48,7 @@ export default [
 
     heading1: "Best SEO Company in Pune",
     description1:
-      "E-Website Provider is an award-winning & trusted SEO agency in Pune, India. We are experienced and Best SEO company in Pune, India offering result oriented Search Engine Optimization (SEO) services for more than two decades. With the best Search Engine Optimization strategy, we aim to bring your website to the top positions in Google and improve organic traffic. SEO helps to engage with potential customers, can drive valuable traffic to your website and increase revenue.",
+      "B-Qarlson Software Technologies is an award-winning & trusted SEO agency in Pune, India. We are experienced and Best SEO company in Pune, India offering result oriented Search Engine Optimization (SEO) services for more than two decades. With the best Search Engine Optimization strategy, we aim to bring your website to the top positions in Google and improve organic traffic. SEO helps to engage with potential customers, can drive valuable traffic to your website and increase revenue.",
     source1:
       "https://img.freepik.com/free-vector/seo-concept-illustration_24908-61513.jpg?w=740&t=st=1690302373~exp=1690302973~hmac=d26dcaa342f453d2c2cf18e7693d9ca1e9d1aef3b31b095715fea49dec83cd58",
 
@@ -90,7 +90,7 @@ export default [
 
     heading1: "Social Media Marketing Company in Pune, India",
     description1:
-      "E-Website Provider is a trustworthy Social Media Marketing Company in Pune, India that offers valuable social media services and helps to get your business recognized through different social media platforms like Facebook, Instagram,LinkedIn to get more engagements and leads.",
+      "B-Qarlson Software Technologies is a trustworthy Social Media Marketing Company in Pune, India that offers valuable social media services and helps to get your business recognized through different social media platforms like Facebook, Instagram,LinkedIn to get more engagements and leads.",
     source1:
       "https://img.freepik.com/free-vector/circular-influencer-marketing-vector_23-2147698406.jpg?w=826&t=st=1690302527~exp=1690303127~hmac=3f38bc4f16999faacd30689c9c18422772637434c02217c135257bd0cd0747a1",
 
@@ -107,12 +107,12 @@ export default [
       {
         img: "https://www.dimakhconsultants.com/img/digital-marketing/social-media-marketing/icon/icon1.png",
         title: "",
-        desc: "Our technical and skilled team has completed over 100 successful Facebook campaigns deriving quality leads, sales, and conversions and increased ROI for our esteemed clients. Our expert team at E-Website Provider primarily focuses on analyzing your business goals such as leads or sales or website visits, and then we start planning on the strategy such as bidding, budget, and audience demographics such as age, gender, location, etc. We make sure to select the appropriate multimedia to attract and engage the audience and boost maximum conversions through our ad campaigns.",
+        desc: "Our technical and skilled team has completed over 100 successful Facebook campaigns deriving quality leads, sales, and conversions and increased ROI for our esteemed clients. Our expert team at B-Qarlson Software Technologies primarily focuses on analyzing your business goals such as leads or sales or website visits, and then we start planning on the strategy such as bidding, budget, and audience demographics such as age, gender, location, etc. We make sure to select the appropriate multimedia to attract and engage the audience and boost maximum conversions through our ad campaigns.",
       },
       {
         img: "https://www.dimakhconsultants.com/img/digital-marketing/social-media-marketing/icon/icon3.png",
         title: "",
-        desc: "Linkedin Marketing is quite a popular platform to promote your professional services or products. Linkedin has a database of a lot of professionals, students, and job seekers who are constantly updating and posting jobs related questions and requirements. E-Website Provider is a leading and a top Linkedin Marketing Company in Pune, India having an experienced team of Linkedin Ad management professional who helps to build, grow, and connect with a pool of professionals and leverage your business on a professional level in front of a niche-specific audience. We help to create a robust Linkedin Campaign and target people based on their job titles and roles, age group.Our experts create attractive & powerful ads to increase the visibility fo your brand to achieve the best results.",
+        desc: "Linkedin Marketing is quite a popular platform to promote your professional services or products. Linkedin has a database of a lot of professionals, students, and job seekers who are constantly updating and posting jobs related questions and requirements. B-Qarlson Software Technologies is a leading and a top Linkedin Marketing Company in Pune, India having an experienced team of Linkedin Ad management professional who helps to build, grow, and connect with a pool of professionals and leverage your business on a professional level in front of a niche-specific audience. We help to create a robust Linkedin Campaign and target people based on their job titles and roles, age group.Our experts create attractive & powerful ads to increase the visibility fo your brand to achieve the best results.",
       },
       {
         img: "",
@@ -139,7 +139,7 @@ export default [
 
     heading2: "What Is Pay Per Click (PPC)?",
     description2:
-      "E-Website Provider is a top PPC Company in India. With its experienced and rich team of PPC experts, we are the #1 Pay Per Click Marketing Agency in Pune. With the advent of the internet and its immense popularity, many website design companies in Pune, India are working on expanding their business and are searching out options more than just website updations and Search Engine optimization.",
+      "B-Qarlson Software Technologies is a top PPC Company in India. With its experienced and rich team of PPC experts, we are the #1 Pay Per Click Marketing Agency in Pune. With the advent of the internet and its immense popularity, many website design companies in Pune, India are working on expanding their business and are searching out options more than just website updations and Search Engine optimization.",
 
     cards: [
       {
@@ -218,7 +218,7 @@ export default [
 
     heading1: "Google Map Business Listing in Pune, India",
     description1:
-      "E-Website Provider is a leading Digital Marketing Company in Pune, India having an expert team of Digital Marketers who can help you list your business on google maps business listing to increase your sales and convert your visitors into leads.",
+      "B-Qarlson Software Technologies is a leading Digital Marketing Company in Pune, India having an expert team of Digital Marketers who can help you list your business on google maps business listing to increase your sales and convert your visitors into leads.",
     source1:
       "https://img.freepik.com/free-photo/mobile-with-google-maps_1134-132.jpg?w=1380&t=st=1690302593~exp=1690303193~hmac=820dc89025da8eb8fc2a0077af69221d24b90bc579fe1cf5b4aaab6116fc4d83",
 
@@ -234,7 +234,7 @@ export default [
 
     heading1: "Mobile SEO Company in Pune, India",
     description1:
-      "E-Website Provider is a leading Mobile SEO Company that provides customized Mobile SEO Services to help boost conversions, drive quality traffic, and rank your business higher on the search engine.",
+      "B-Qarlson Software Technologies is a leading Mobile SEO Company that provides customized Mobile SEO Services to help boost conversions, drive quality traffic, and rank your business higher on the search engine.",
     source1:
       "https://img.freepik.com/free-photo/close-up-man-s-hand-using-his-mobile-phone_1134-53.jpg?w=1380&t=st=1690302608~exp=1690303208~hmac=b021804eba9c96dae993da3163fa6d6b5c93b5e06b0c384503e890bbe8751848",
 
@@ -284,7 +284,7 @@ export default [
     heading2:
       "We Help You Achieve Your Marketing Goal By Creating Strategic Funnel To Deliver Best Solutions",
     description2:
-      "Market professionals predict the future might be dominated by voice searches. So it is time to start planning your Voice Search SEO. E-Website Provider is a leading Voice SEO Company in India that helps you implement Voice SEO by planning strategies to get ranked higher. Our expert team makes sure to keep in mind the latest trends and perform SEO operations according to the latest updates.",
+      "Market professionals predict the future might be dominated by voice searches. So it is time to start planning your Voice Search SEO. B-Qarlson Software Technologies is a leading Voice SEO Company in India that helps you implement Voice SEO by planning strategies to get ranked higher. Our expert team makes sure to keep in mind the latest trends and perform SEO operations according to the latest updates.",
 
     cards: [
       {
@@ -320,11 +320,11 @@ export default [
 
     heading1: "Landing Page Optimization Company in Pune, India",
     description1:
-      "E-Website Provider is a leading Landing Page Optimization Company in India that provides excellent Landing Page Optimization Services to convert your visitors to sales.",
+      "B-Qarlson Software Technologies is a leading Landing Page Optimization Company in India that provides excellent Landing Page Optimization Services to convert your visitors to sales.",
     source1:
       "https://www.upgrowth.in/wp-content/uploads/2021/09/Landing-Page-optimization.jpg",
 
-    heading2: "Create Campaign-Oriented Landing Pages with E-Website Provider",
+    heading2: "Create Campaign-Oriented Landing Pages with B-Qarlson Software Technologies",
     description2:
       "Have you identified why visitors are not taking the desired action you asked them to? An attractive landing page can help you enhance your turnover by encouraging customers to take action on your site. A landing page is the first page where a visitor lands and decides whether to take any action or not.",
 
@@ -369,7 +369,7 @@ export default [
     heading2:
       "Do You Have A Local SEO Strategy? Get Involved With Local Buyers And Get Established In The Local Market",
     description2:
-      "E-Website Provider is a leading LOCAL SEO AGENCY that provides Affordable Local SEO Services with the help of an expert team of digital marketers who analyzes your website and helps to improve your ROI, increase traffic, and helps to rank your local business in Google by performing excellent SEO practices",
+      "B-Qarlson Software Technologies is a leading LOCAL SEO AGENCY that provides Affordable Local SEO Services with the help of an expert team of digital marketers who analyzes your website and helps to improve your ROI, increase traffic, and helps to rank your local business in Google by performing excellent SEO practices",
 
     cards: [
       {
@@ -412,7 +412,7 @@ export default [
     heading2:
       "Hire Us And Get Noticed In The Market. Boost Your Credibility And Spread Awareness",
     description2:
-      "E-Website Provider is a top Online Reputation Management Company India had been serving its esteemed clients for over 20 years. With that experience, we provide the best Online Reputation Management Services in Pune. Our expert team makes sure to maintain a positive brand image by implementing Online Reputation Management strategies and recognize all the negative comments and convert them into positive ones.",
+      "B-Qarlson Software Technologies is a top Online Reputation Management Company India had been serving its esteemed clients for over 20 years. With that experience, we provide the best Online Reputation Management Services in Pune. Our expert team makes sure to maintain a positive brand image by implementing Online Reputation Management strategies and recognize all the negative comments and convert them into positive ones.",
 
     cards: [
       {
@@ -454,7 +454,7 @@ export default [
 
     heading2: "Uplift Your Organic Traffic With Youtube Marketing",
     description2:
-      "E-Website Provider provides Youtube Marketing Services in Pune, to help you drive organic traffic to your website. Our expert team helps to rank your youtube videos on top in search engines through planned Youtube SEO strategies. Youtube Marketing ensures you drive huge customers on your website and it is a potential way of endorsing your service to a wide base of users.",
+      "B-Qarlson Software Technologies provides Youtube Marketing Services in Pune, to help you drive organic traffic to your website. Our expert team helps to rank your youtube videos on top in search engines through planned Youtube SEO strategies. Youtube Marketing ensures you drive huge customers on your website and it is a potential way of endorsing your service to a wide base of users.",
 
     cards: [
       {
@@ -490,14 +490,14 @@ export default [
 
     heading1: "Google Ads Management Company in Pune, India",
     description1:
-      "E-Website Provider is a leading Google Ads Marketing Company in Pune, India also is a Google Ads certified Company that ensures to manage your budget and helps to boost your paid marketing google ads campaigns. Great keyword strategy with highly focused keyword research helps to obtain more customers who are searching for your ad.",
+      "B-Qarlson Software Technologies is a leading Google Ads Marketing Company in Pune, India also is a Google Ads certified Company that ensures to manage your budget and helps to boost your paid marketing google ads campaigns. Great keyword strategy with highly focused keyword research helps to obtain more customers who are searching for your ad.",
     source1:
       "https://www.freepik.com/free-photo/businesswoman-using-tablet-analysis-graph-company-finance-s_15975855.htm#query=Google%20Ads%20Management&position=5&from_view=search&track=ais",
 
     heading2:
       "Want To Know How Google Adwords Campaigns Work? Hire Us And Build Your Own Empire",
     description2:
-      "We at E-Website Provider believe that each ad marketing campaign is different and requires different goals and funnel strategy. Our expert team happens to put together a plan for your success to help you double your profit from all the investments you have done for ad campaigns. Our expert team primarily focuses on the main aspect of your business model and helps to get your campaign management work successfully.",
+      "We at B-Qarlson Software Technologies believe that each ad marketing campaign is different and requires different goals and funnel strategy. Our expert team happens to put together a plan for your success to help you double your profit from all the investments you have done for ad campaigns. Our expert team primarily focuses on the main aspect of your business model and helps to get your campaign management work successfully.",
 
     cards: [
       {
@@ -539,7 +539,7 @@ export default [
 
     heading2: "A Trustworthy And Authoritative Content Marketing Company",
     description2:
-      "E-Website Provider is a top Content Marketing Company in India that focuses on improving your ROI and Conversions by providing quality Content Marketing Services. We at E-Website Provider have a talented and experienced team of content marketers who analyzes your business requirement and provide content based on pure research aligning it with current SEO and SMM guidelines. Our expert team creates premium quality content for all your channels by doing specific keyword research and help you achieve clients and leads from different sources.",
+      "B-Qarlson Software Technologies is a top Content Marketing Company in India that focuses on improving your ROI and Conversions by providing quality Content Marketing Services. We at B-Qarlson Software Technologies have a talented and experienced team of content marketers who analyzes your business requirement and provide content based on pure research aligning it with current SEO and SMM guidelines. Our expert team creates premium quality content for all your channels by doing specific keyword research and help you achieve clients and leads from different sources.",
 
     cards: [
       {
@@ -549,7 +549,7 @@ export default [
       {
         img: "https://www.dimakhconsultants.com/img/digital-marketing/content-marketing/icon/icon1.png",
         title: "DELIVERING UNIQUE AND RESEARCHED CONTENT",
-        desc: "We at E-Website Provider have an expert team of professional content marketers who aim to deliver plagiarism free and unique content as per the need of the client.We guarantee to deliver amazing content infographics,blogs,articles,etc that would drive you more audience.",
+        desc: "We at B-Qarlson Software Technologies have an expert team of professional content marketers who aim to deliver plagiarism free and unique content as per the need of the client.We guarantee to deliver amazing content infographics,blogs,articles,etc that would drive you more audience.",
       },
       {
         img: "https://www.dimakhconsultants.com/img/digital-marketing/content-marketing/icon/icon3.png",
@@ -592,22 +592,22 @@ export default [
       {
         img: "https://www.dimakhconsultants.com/img/digital-marketing/social-media-marketing/icon/icon1.png",
         title: "Activities And Social Media Optimization Service",
-        desc: "We at E-Website Provider Pune treat each customer as unique; as every Customer has different needs and goals to be achieved. Based upon the Customers goals and needs we thoroughly analyze and create a right mixture of SMO Strategy.Our team of Web Marketing Experts will create a SMO Strategy that will give your website a good position and exposure in Social Media websites, which in turn will generate targeted traffic and also help create Customer loyalty, brand identity among your targeted customers. Combined with our other services, which include strategy, marketing, technology tools; we provide effective, cost-efficient and powerful interactive Social Media Solutions for our clients. We have also built some Social Media tools for our clients.",
+        desc: "We at B-Qarlson Software Technologies Pune treat each customer as unique; as every Customer has different needs and goals to be achieved. Based upon the Customers goals and needs we thoroughly analyze and create a right mixture of SMO Strategy.Our team of Web Marketing Experts will create a SMO Strategy that will give your website a good position and exposure in Social Media websites, which in turn will generate targeted traffic and also help create Customer loyalty, brand identity among your targeted customers. Combined with our other services, which include strategy, marketing, technology tools; we provide effective, cost-efficient and powerful interactive Social Media Solutions for our clients. We have also built some Social Media tools for our clients.",
       },
       {
         img: "https://www.dimakhconsultants.com/img/digital-marketing/social-media-marketing/icon/icon4.png",
         title: "Building Facebook Communities",
-        desc: "In the last couple of years Facebook has gone from a college photo-sharing site to a complete business- networking platform for self-promotion, advertising and multimedia interaction Facebook is an incredibly popular social networking site that allows you to build communities based on your interests. E-Website Provider provides strategic input on how to create and maintain successful Facebook pages and build a Facebook community around your company or organization. With this you can create a platform where your loyal customers can come together or prospective clients get more information. You can also communicate with your customers, sharing news, receiving feedback, and providing customer service. We also focus on Facebook statistics and suggest campaign adjustments. We also provide service of Facebook Ads.",
+        desc: "In the last couple of years Facebook has gone from a college photo-sharing site to a complete business- networking platform for self-promotion, advertising and multimedia interaction Facebook is an incredibly popular social networking site that allows you to build communities based on your interests. B-Qarlson Software Technologies provides strategic input on how to create and maintain successful Facebook pages and build a Facebook community around your company or organization. With this you can create a platform where your loyal customers can come together or prospective clients get more information. You can also communicate with your customers, sharing news, receiving feedback, and providing customer service. We also focus on Facebook statistics and suggest campaign adjustments. We also provide service of Facebook Ads.",
       },
       {
         img: "https://www.dimakhconsultants.com/img/digital-marketing/social-media-marketing/icon/icon3.png",
         title: "Blog Marketing Consulting And Optimization",
-        desc: "E-Website Provider offers a full range of blog consulting, creation and optimimzation services. Blogging consists of maintaining an ongoing update of your information online. Today blogs have become an extremely important part of the social media landscape. As a social media marketing agency in India we offer blogging services for our clients.An experienced content writer provides the cutting edge difference between your blog and other run of the mill blogs. Our social media marketing consultant will make your blog social media-friendly by making it easier for people to link, tag, and bookmark your blog posts. Interesting, informative and professionally written blog would be promoted through the net with use of RSS feeds and other ways.",
+        desc: "B-Qarlson Software Technologies offers a full range of blog consulting, creation and optimimzation services. Blogging consists of maintaining an ongoing update of your information online. Today blogs have become an extremely important part of the social media landscape. As a social media marketing agency in India we offer blogging services for our clients.An experienced content writer provides the cutting edge difference between your blog and other run of the mill blogs. Our social media marketing consultant will make your blog social media-friendly by making it easier for people to link, tag, and bookmark your blog posts. Interesting, informative and professionally written blog would be promoted through the net with use of RSS feeds and other ways.",
       },
       {
         img: "https://www.dimakhconsultants.com/img/digital-marketing/social-media-marketing/icon/icon4.png",
         title: "Twitter Profile Building",
-        desc: "Twitter is a very popular social networking and microblogging service. Updates on Twitter, which are known as tweets, cannot be longer than 140 characters. We offer a unique blend of services for our customers. E-Website Provider twitter services include Setup and maintenance of Twitter accounts, Twitter Graphic Setup, high quality related followers fast and effectively added, twitter consultation, Integrating your website, blog, Facebook, and other marketing efforts into your Twitter account. We also offer - Corporate Reputation Management, Event Activation , Product Promotion and Sales.",
+        desc: "Twitter is a very popular social networking and microblogging service. Updates on Twitter, which are known as tweets, cannot be longer than 140 characters. We offer a unique blend of services for our customers. B-Qarlson Software Technologies twitter services include Setup and maintenance of Twitter accounts, Twitter Graphic Setup, high quality related followers fast and effectively added, twitter consultation, Integrating your website, blog, Facebook, and other marketing efforts into your Twitter account. We also offer - Corporate Reputation Management, Event Activation , Product Promotion and Sales.",
       },
     ],
   },
@@ -618,13 +618,13 @@ export default [
 
     heading1: "Google Partner Certified Company in Pune",
     description1:
-      "The Google Partner badge is awarded to companies with Google Ads skills and expertise. E-Website Provider is one of the first company in Pune to get the coveted certificate from Google. We specialise in offering paid Google ads service in Pune. Our team has earned the expertise and certification in Google Search Advertising, Display advertising, Video advertising and Shopping Advertising.",
+      "The Google Partner badge is awarded to companies with Google Ads skills and expertise. B-Qarlson Software Technologies is one of the first company in Pune to get the coveted certificate from Google. We specialise in offering paid Google ads service in Pune. Our team has earned the expertise and certification in Google Search Advertising, Display advertising, Video advertising and Shopping Advertising.",
     source1:
       "https://img.freepik.com/free-photo/businessman-touching-red-icon-connected_1232-176.jpg?w=1380&t=st=1690303468~exp=1690304068~hmac=e2845e5cd5fcd951fe9fa59487155a68c95b9b6b807e368a89a879705b0ba254",
 
     heading2: "Advantages of working with Google Partners",
     description2:
-      "As a Google certified company its mandatory for us to be constantly updated. This ensures that we at E-Website Provider are in par with the latest global digital marketing practices. By working with us you get total control and flexibility on all your campaigns. Direct support from expert Google team. Google certified engineers to work on all your campaigns",
+      "As a Google certified company its mandatory for us to be constantly updated. This ensures that we at B-Qarlson Software Technologies are in par with the latest global digital marketing practices. By working with us you get total control and flexibility on all your campaigns. Direct support from expert Google team. Google certified engineers to work on all your campaigns",
   },
 
   // Online Advertisement
@@ -633,7 +633,7 @@ export default [
 
     heading1: "Online Advertisement Services in Pune, India",
     description1:
-      "At E-Website Provider, our online advertising services cover and enable you to leverage every online advertising platform relevant to your business and branding needs. We work as the online advertisement company in Pune for a range of reputed brands across business domains and have helped them grow brand awareness, digital outreach, and qualified leads through intriguing content and higher customer engagement.",
+      "At B-Qarlson Software Technologies, our online advertising services cover and enable you to leverage every online advertising platform relevant to your business and branding needs. We work as the online advertisement company in Pune for a range of reputed brands across business domains and have helped them grow brand awareness, digital outreach, and qualified leads through intriguing content and higher customer engagement.",
     source1:
       "https://www.antevenio.com/usa/wp-content/uploads/2018/05/7-Types-of-Online-Advertising-destacada.jpg",
   },
@@ -645,19 +645,19 @@ export default [
     heading1:
       "Broaden your Target Outreach with the Best Email Marketing Services in Pune.",
     description1:
-      "Do you want to augment your target outreach and searching for the best bulk email service providers and email marketing companies in Pune? Then, you’ve reached the right place! E-Website Provider, the best email marketing company in Pune, is here to empower you with the right email marketing strategy and email marketing content to help you reach the target group and create value through optimized engagement.",
+      "Do you want to augment your target outreach and searching for the best bulk email service providers and email marketing companies in Pune? Then, you’ve reached the right place! B-Qarlson Software Technologies, the best email marketing company in Pune, is here to empower you with the right email marketing strategy and email marketing content to help you reach the target group and create value through optimized engagement.",
     source1:
       "https://img.freepik.com/free-photo/message-online-chat-social-text-concept_53876-122734.jpg?w=826&t=st=1690303537~exp=1690304137~hmac=9920671295f02b7b92de9a43092c7ff2eaf7270f33e0e922494fda430727ebda",
 
     heading2: "Our Email Marketing Services",
     description2:
-      "At E-Website Provider, what makes us stand out from the crowd of email marketing companies in Pune are our email marketing strategies and email marketing services specific to every business. Whether you are a food joint or a small boutique owner who wants to promote a flash sale offer, we customize our email marketing strategies and content to meet your expectations and generate inquiries through the email marketing campaign. Accordingly, to live up to our reputation of being an end- to - end email marketing company in Pune, we provide the following email marketing services for small businesses and global enterprises.",
+      "At B-Qarlson Software Technologies, what makes us stand out from the crowd of email marketing companies in Pune are our email marketing strategies and email marketing services specific to every business. Whether you are a food joint or a small boutique owner who wants to promote a flash sale offer, we customize our email marketing strategies and content to meet your expectations and generate inquiries through the email marketing campaign. Accordingly, to live up to our reputation of being an end- to - end email marketing company in Pune, we provide the following email marketing services for small businesses and global enterprises.",
 
     cards: [
       {
         heading: "Overview and Process",
         subheading:
-          "Mobile App Experts : E-Website Provider end to end solution partner",
+          "Mobile App Experts : B-Qarlson Software Technologies end to end solution partner",
       },
       {
         img: "https://www.dimakhconsultants.com/img/digital-marketing/Email-icon4.png",
@@ -677,7 +677,7 @@ export default [
       {
         img: "https://www.dimakhconsultants.com/img/digital-marketing/Email-icon2.png",
         title: "Email Marketing Campaign Management",
-        desc: "We provide end-to-end email marketing campaign management services that include everything from designing the email marketing campaign, developing, executing, and finally consolidating results and reporting them to you. So, don’t worry if your office is closed on a particular day, and you want to broadcast an important message through an email to your subscribers. E-Website Provider will handle it for you!",
+        desc: "We provide end-to-end email marketing campaign management services that include everything from designing the email marketing campaign, developing, executing, and finally consolidating results and reporting them to you. So, don’t worry if your office is closed on a particular day, and you want to broadcast an important message through an email to your subscribers. B-Qarlson Software Technologies will handle it for you!",
       },
     ],
   },
@@ -694,7 +694,7 @@ export default [
 
     heading2: "Google loves mobile friendly websites Yes!",
     description2:
-      "Google gives higher priority in its first page search results for mobile friendly websites and in-fact Google penalises websites which are not responsive. We at E-Website Provider specialise in creating beautiful and responsive web designs which are loved by your visitors and are technically perfect the way Google wants. Our designing and development teams in Pune are well trained to offer responsive website design services and convert existing websites to mobile friendly websites.All our websites are SEO optimised responsive websites and give the best possible results for google top rankings. Empower your website now by making it responsive and turn clicks into customers.",
+      "Google gives higher priority in its first page search results for mobile friendly websites and in-fact Google penalises websites which are not responsive. We at B-Qarlson Software Technologies specialise in creating beautiful and responsive web designs which are loved by your visitors and are technically perfect the way Google wants. Our designing and development teams in Pune are well trained to offer responsive website design services and convert existing websites to mobile friendly websites.All our websites are SEO optimised responsive websites and give the best possible results for google top rankings. Empower your website now by making it responsive and turn clicks into customers.",
 
     cards: [
       {
@@ -769,7 +769,7 @@ export default [
 
     heading2: "New Look Website Design : Improved ROI",
     description2:
-      "It is time for Website Redesign when your site looks outdated, your site no longer is visible in search engines, your competitor has a better website than yours, your site is not user friendly with ease of navigation, no social networking initiative done and your content is out dated. E-Website Provider provides you with innovative design ideas that adhere to current Web Industry standards and utilises the latest web technology to create a superior customer experience.We also enhance crucial aspects of your website by improving the user experience, reaching your digital marketing goal and lead generation.",
+      "It is time for Website Redesign when your site looks outdated, your site no longer is visible in search engines, your competitor has a better website than yours, your site is not user friendly with ease of navigation, no social networking initiative done and your content is out dated. B-Qarlson Software Technologies provides you with innovative design ideas that adhere to current Web Industry standards and utilises the latest web technology to create a superior customer experience.We also enhance crucial aspects of your website by improving the user experience, reaching your digital marketing goal and lead generation.",
 
     cards: [
       {
@@ -836,7 +836,7 @@ export default [
       {
         img: "https://www.dimakhconsultants.com/img/web-design/website-maintenance/icon/icon4.png",
         title: "",
-        desc: "E-Website Provider is web design and web maintenance company in Pune India. We offer web maintenance contract as per your needs or we also have customised web maintenance packages suitable to your needs. We also provide web maintenance services in India for all our clients in India. For offshore clients or for even clients in India we provide onsite support and maintenance services for all the web requirements",
+        desc: "B-Qarlson Software Technologies is web design and web maintenance company in Pune India. We offer web maintenance contract as per your needs or we also have customised web maintenance packages suitable to your needs. We also provide web maintenance services in India for all our clients in India. For offshore clients or for even clients in India we provide onsite support and maintenance services for all the web requirements",
       },
     ],
   },
@@ -853,7 +853,7 @@ export default [
 
     heading2: "Creating space and impressions in the consumers market mind",
     description2:
-      "E-Website Provider offers logo design service coupled with online identity for your business products or services. The logo of any company is the brand identification and the start of a successful brand strategy. Since 1998 we have designed 100s of logo designs for companies in India and abroad.",
+      "B-Qarlson Software Technologies offers logo design service coupled with online identity for your business products or services. The logo of any company is the brand identification and the start of a successful brand strategy. Since 1998 we have designed 100s of logo designs for companies in India and abroad.",
   },
 
   // WebDesign
@@ -862,14 +862,14 @@ export default [
 
     heading1: "Website Designing in Pune",
     description1:
-      "Website design and website development companies today emphasize on responsive and meaningful website designs to market their brand, products and services online. How does one really choose the best design and development company? Really Simple! Evaluate to choose the “Best website design company in India”. As a Top website design company, E-Website Provider (Pune) helps you build a professionally designed website - the most cost effective marketing tool available in the world today!",
+      "Website design and website development companies today emphasize on responsive and meaningful website designs to market their brand, products and services online. How does one really choose the best design and development company? Really Simple! Evaluate to choose the “Best website design company in India”. As a Top website design company, B-Qarlson Software Technologies (Pune) helps you build a professionally designed website - the most cost effective marketing tool available in the world today!",
     source1:
       "https://img.freepik.com/free-photo/online-web-design_53876-95309.jpg?w=1380&t=st=1690303813~exp=1690304413~hmac=2ad77dd63c6edf17f9e47aaf51ff3a30fb9246135e9f8bd1ba80649aa1f15b10",
 
     heading2:
       "From Converting Your Viewers To Your Customers - Website Designing Services Pune",
     description2:
-      "As your digital marketing partner, we at E-Website Provider focus to plan adding value to your online presence. Being a website design and development company, we use effective and latest design techniques to transform your web information to result oriented websites. Well- conceived and planned web sites are an integral part of every organization's communication needs. Offering an attractive, intuitive interface with a logical and easy to use navigation layout will make the difference between a happy visitor (and potential client) and a frustrated web surfer for your website.",
+      "As your digital marketing partner, we at B-Qarlson Software Technologies focus to plan adding value to your online presence. Being a website design and development company, we use effective and latest design techniques to transform your web information to result oriented websites. Well- conceived and planned web sites are an integral part of every organization's communication needs. Offering an attractive, intuitive interface with a logical and easy to use navigation layout will make the difference between a happy visitor (and potential client) and a frustrated web surfer for your website.",
   },
 
   // Web Solutions
@@ -878,7 +878,7 @@ export default [
 
     heading1: "Web Design & Development Solutions",
     description1:
-      "E-Website Provider Pune brings wide range of offshore software outsourcing services in India with a strong technology background and vast experience. Specialized in custom outsourcing software development, outsourcing web development, web design, Ecommerce Development Services, e-business solutions, Professional Web Development in Pune India.",
+      "B-Qarlson Software Technologies Pune brings wide range of offshore software outsourcing services in India with a strong technology background and vast experience. Specialized in custom outsourcing software development, outsourcing web development, web design, Ecommerce Development Services, e-business solutions, Professional Web Development in Pune India.",
     source1:
       "https://s40424.pcdn.co/in/wp-content/uploads/2023/03/small-business-ideas-list.png.webp",
   },
@@ -889,13 +889,13 @@ export default [
 
     heading1: "TOP ASP.NET Development Company in Pune, India",
     description1:
-      "From Startups to SMEs to Enterprises, we have designed and developed Microsoft applications since 1998. As a leading Microsoft .NET development company in India, E-Website Provider has the core strength to develop e-commerce websites, Content Management Systems, .NET Product development and enterprise level microsoft applications.",
+      "From Startups to SMEs to Enterprises, we have designed and developed Microsoft applications since 1998. As a leading Microsoft .NET development company in India, B-Qarlson Software Technologies has the core strength to develop e-commerce websites, Content Management Systems, .NET Product development and enterprise level microsoft applications.",
     source1:
       "https://img.freepik.com/free-photo/programming-background-with-person-working-with-codes-computer_23-2150010125.jpg?w=1380&t=st=1690303871~exp=1690304471~hmac=af3423527faf50488b680e4f883b54d20d252327f794a3ebabb17934b5949434",
 
     heading2: "Hire ASP.NET professional team in India",
     description2:
-      "Experienced and Trusted ASP.Net application development team in India is the right choice for your project. At E-Website Provider, we implement world-class asp.net web services to create industry specific applications to grow your business. Our team in Pune of professional developers, with several years of experience in ASP.NET, brings knowledge and expertise to your project to meet your software development requirements at any level of customized web application services or maintenance projects in ASP.NET.",
+      "Experienced and Trusted ASP.Net application development team in India is the right choice for your project. At B-Qarlson Software Technologies, we implement world-class asp.net web services to create industry specific applications to grow your business. Our team in Pune of professional developers, with several years of experience in ASP.NET, brings knowledge and expertise to your project to meet your software development requirements at any level of customized web application services or maintenance projects in ASP.NET.",
 
     cards: [
       {
@@ -1020,13 +1020,13 @@ export default [
 
     heading1: "Enquiry Management System with Lead Generation Mobile App",
     description1:
-      "Every business today has to keep track of all enquiries and sales leads that are generated. We have numerous sources from where different leads are generated. For various organizations its very difficult to manage enquiry and tracking of those leads and most importantly to know the conversion from the source of various sales leads. A good mobile app based inquiry management system saves you a lot of time and efforts and in turn saves a lot of man hours for a company. E-Website Provider offers you just the same solution that you have been looking for in a lead management system.",
+      "Every business today has to keep track of all enquiries and sales leads that are generated. We have numerous sources from where different leads are generated. For various organizations its very difficult to manage enquiry and tracking of those leads and most importantly to know the conversion from the source of various sales leads. A good mobile app based inquiry management system saves you a lot of time and efforts and in turn saves a lot of man hours for a company. B-Qarlson Software Technologies offers you just the same solution that you have been looking for in a lead management system.",
     source1:
       "https://www.enquirysoft.com/lead-management/free-enquiry-management-software.jpg",
 
-    heading2: "Enquiry Management System With E-Website Provider",
+    heading2: "Enquiry Management System With B-Qarlson Software Technologies",
     description2:
-      "At E-Website Provider we have devised a very user friendly and effective sales lead management system with a mobile app. Over a decade of research and continuos updates the inquiry management software that we offer has a lot of features and a good dashboard for overview. The online sales lead management module offers a detailed drilled down approach to review and track each individual lead. The solution that we provide is an online multi user version and the application is hosted on our servers or cloud hosting as per your requirement. The cloud hosting lead management ensures a hassle free experience without any worry for backups, security and other problems.",
+      "At B-Qarlson Software Technologies we have devised a very user friendly and effective sales lead management system with a mobile app. Over a decade of research and continuos updates the inquiry management software that we offer has a lot of features and a good dashboard for overview. The online sales lead management module offers a detailed drilled down approach to review and track each individual lead. The solution that we provide is an online multi user version and the application is hosted on our servers or cloud hosting as per your requirement. The cloud hosting lead management ensures a hassle free experience without any worry for backups, security and other problems.",
   },
 
   // Dashboard Designs
@@ -1042,7 +1042,7 @@ export default [
 
     heading2: "Effective and Robust Data based Report and Tracking Systems",
     description2:
-      "E-Website Provider offers built in model of dashboard design and systems. Today data based tracking systems play a very critical role in defining productive output of any business enterprise. We also deliver system capturing any type of data and not just related to business performance. It could be your digital marketing report, your online sales, your HR , your ticketing system , sales reports etc. The intention is help you take decisions based on authentic data presented in a manner that you can understand.",
+      "B-Qarlson Software Technologies offers built in model of dashboard design and systems. Today data based tracking systems play a very critical role in defining productive output of any business enterprise. We also deliver system capturing any type of data and not just related to business performance. It could be your digital marketing report, your online sales, your HR , your ticketing system , sales reports etc. The intention is help you take decisions based on authentic data presented in a manner that you can understand.",
   },
 
   // Mobile App Design
@@ -1052,7 +1052,7 @@ export default [
     heading1:
       "Award Winning Mobile App Design and Development Company in Pune, India",
     description1:
-      'We are a Top Mobile App Development Company in India based in Pune, who will help you to develop an outstanding design with innovative functionality. E-Website Provider was awarded the Engineering Excellence Award at the Global India Business Forum for the "Covid Kavach" App.',
+      'We are a Top Mobile App Development Company in India based in Pune, who will help you to develop an outstanding design with innovative functionality. B-Qarlson Software Technologies was awarded the Engineering Excellence Award at the Global India Business Forum for the "Covid Kavach" App.',
     source1:
       "https://contentstatic.techgig.com/photo/81492488/top-5-ui/ux-design-trends-for-mobile-app-development-in-2021.jpg?97375",
 
@@ -1073,7 +1073,7 @@ export default [
 
     heading2: "Mobile App Design & Development- Elevate your Digital Business",
     description2:
-      "E-Website Provider is a top android app development company in pune providing end to end solutions to its customers. We offer adaptable android app development for all your requirements and turn your ideas into reality. We are in the industry since 1998 and have emerged as the leading android app development company in India. Our highly skilled and efficient team of android app developers and designers make your application development journey easy and flexible by providing unique and robust features for your application. Our expertise and promising android app development services have given us an opportunity to work with around 2000 clients across all continents.",
+      "B-Qarlson Software Technologies is a top android app development company in pune providing end to end solutions to its customers. We offer adaptable android app development for all your requirements and turn your ideas into reality. We are in the industry since 1998 and have emerged as the leading android app development company in India. Our highly skilled and efficient team of android app developers and designers make your application development journey easy and flexible by providing unique and robust features for your application. Our expertise and promising android app development services have given us an opportunity to work with around 2000 clients across all continents.",
 
     cards: [
       {
@@ -1109,14 +1109,14 @@ export default [
 
     heading1: "Leading iPhone iOS App Development Company in Pune, India",
     description1:
-      "For Apple users we don't just make mobile apps, we create unique Experiences and Memories across iPhone, iPads and Apple Watches.E-Website Provider is one of the top iOS app development company in India based in Pune.We offer end- to - end solutions for all iOS app developments and map the app creation journey from ideations, conception, design with UI UX, development and app launch on apple store.Our Internet of Things(IoT) based apps have won a lot of accolades from clients and users.We follow an agile application development methodology and build apps for iOS in Swift, Objective - C on Xcode software platform to create powerful and intuitive apps for macOS, iOS, watchOS, tvOS.",
+      "For Apple users we don't just make mobile apps, we create unique Experiences and Memories across iPhone, iPads and Apple Watches.B-Qarlson Software Technologies is one of the top iOS app development company in India based in Pune.We offer end- to - end solutions for all iOS app developments and map the app creation journey from ideations, conception, design with UI UX, development and app launch on apple store.Our Internet of Things(IoT) based apps have won a lot of accolades from clients and users.We follow an agile application development methodology and build apps for iOS in Swift, Objective - C on Xcode software platform to create powerful and intuitive apps for macOS, iOS, watchOS, tvOS.",
     source1:
       "https://technosoftwares.com/wp-content/uploads/2021/12/iOS-iPHONE-APPLICATION-DEVELOPMENT-1.png",
 
     heading2:
       "Trustworthy, Intuitive and Award winning iOS Development Indian Agency",
     description2:
-      "Founded in 1998, we have designed , developed and published hundreds of mobile apps on iOS and Android platforms. We have catered to clients world wide from India, USA, UK, Dubai Singapore, Malaysia, Canada. Our apps designing service is tailored for corporates, entrepreneurs, Government agencies, research agencies, startup's. With many years of experience in creating robust iOS mobile apps, E-Website Provider is rated as a leading iOS app development company in Pune.",
+      "Founded in 1998, we have designed , developed and published hundreds of mobile apps on iOS and Android platforms. We have catered to clients world wide from India, USA, UK, Dubai Singapore, Malaysia, Canada. Our apps designing service is tailored for corporates, entrepreneurs, Government agencies, research agencies, startup's. With many years of experience in creating robust iOS mobile apps, B-Qarlson Software Technologies is rated as a leading iOS app development company in Pune.",
 
     cards: [
       {
@@ -1166,7 +1166,7 @@ export default [
     cards: [
       {
         heading:
-          "Always Wondered How Much Does It Cost To Develop a Custom Mobile App ? Look At The Type Of Engagements With E-Website Provider",
+          "Always Wondered How Much Does It Cost To Develop a Custom Mobile App ? Look At The Type Of Engagements With B-Qarlson Software Technologies",
         subheading: "",
       },
       {
@@ -1204,7 +1204,7 @@ export default [
 
     heading2: "Maintain, update and keep your mobile app usefult",
     description2:
-      "It is important that once the app is development, the technology is supportive for continual and future updates. The app would require regular maintenance in terms of fixing bugs, upgrading operating systems, controlling versions. E-Website Provider has a very experienced team that can create and maintain technically robust mobile apps.",
+      "It is important that once the app is development, the technology is supportive for continual and future updates. The app would require regular maintenance in terms of fixing bugs, upgrading operating systems, controlling versions. B-Qarlson Software Technologies has a very experienced team that can create and maintain technically robust mobile apps.",
 
     cards: [
       {
@@ -1257,7 +1257,7 @@ export default [
 
     heading1: "Best Web Hosting & Cloud Hosting in Pune",
     description1:
-      "An experienced, stable and secure hosting service provider gives you a confidence in trusting your business of all sizes, kinds and needs. E-Website Provider since 1998 in Pune offers stable and secure web hosting services on cloud linux and windows platforms with shared hosting and dedicated servers.",
+      "An experienced, stable and secure hosting service provider gives you a confidence in trusting your business of all sizes, kinds and needs. B-Qarlson Software Technologies since 1998 in Pune offers stable and secure web hosting services on cloud linux and windows platforms with shared hosting and dedicated servers.",
     source1: "https://www.sectorlink.com/img/blog/cloudhostingbenefits.jpg",
 
     heading2: "Web hosting for startups, small business and enterprises",
@@ -1299,13 +1299,13 @@ export default [
 
     heading1: "Managed AWS Cloud Web Hosting In Pune",
     description1:
-      "An experienced, stable and secure AWS cloud hosting service provider gives you a confidence in trusting your business of all sizes, kinds and needs. E-Website Provider since 1998 in Pune offers stable and secure cloud web hosting services on AWS platform.",
+      "An experienced, stable and secure AWS cloud hosting service provider gives you a confidence in trusting your business of all sizes, kinds and needs. B-Qarlson Software Technologies since 1998 in Pune offers stable and secure cloud web hosting services on AWS platform.",
     source1:
       "https://intellipaat.com/blog/wp-content/uploads/2022/01/image-134.png",
 
     heading2: "Get Support For Your AWS Cloud Web Service",
     description2:
-      "Do you already have your own AWS cloud hosting account ? No problem we will manage the same for you so that you can focus on growing your own business. Handover all your technical support requirements to us for managing the AWS cloud hosting effectively for you. E-Website Provider provides professional Amazon web service which is the preferred hosting solution for most of web application, portal, projects deployment and ecommerce websites.",
+      "Do you already have your own AWS cloud hosting account ? No problem we will manage the same for you so that you can focus on growing your own business. Handover all your technical support requirements to us for managing the AWS cloud hosting effectively for you. B-Qarlson Software Technologies provides professional Amazon web service which is the preferred hosting solution for most of web application, portal, projects deployment and ecommerce websites.",
 
     cards: [
       {
@@ -1342,7 +1342,7 @@ export default [
 
     heading1: "Domain Name Registration Company Pune, India",
     description1:
-      "Register, renew and transfer domain names with all extensions from the best, most experienced and renowned hosting company in Pune. Since 1998 E-Website Provider has been a pioneer in providing domain name, web hosting, shared servers, dedicated servers and cloud hosting in Pune. Get a domain name of your choice and domain extension at an affordable rate with web hosting in Pune.",
+      "Register, renew and transfer domain names with all extensions from the best, most experienced and renowned hosting company in Pune. Since 1998 B-Qarlson Software Technologies has been a pioneer in providing domain name, web hosting, shared servers, dedicated servers and cloud hosting in Pune. Get a domain name of your choice and domain extension at an affordable rate with web hosting in Pune.",
     source1:
       "https://i.pcmag.com/imagery/articles/01FpToD9LfVOVA5AcAEaVl7-1..v1569486921.jpg",
 
@@ -1385,13 +1385,13 @@ export default [
 
     heading1: "Business Email Service Providers in Pune, India",
     description1:
-      "Get custom and professional email@yourdomainname.com email addresses for your business with safe, secure and fast email servers from E-Website Provider. Since 1998 we have managed more than 5000 domains and millions of emails for our clients world wide.",
+      "Get custom and professional email@yourdomainname.com email addresses for your business with safe, secure and fast email servers from B-Qarlson Software Technologies. Since 1998 we have managed more than 5000 domains and millions of emails for our clients world wide.",
     source1:
       "https://email.firm.in/wp-content/uploads/2021/06/top-10-email-service-providers.png",
 
     heading2: "Buy Domain name and get email hosting",
     description2:
-      "Whether you are searching for a single mailbox for your personal use on your personal website or a corporate email solution, E-Website Provider can provide a private and spam free Email service that suits your business. Our stable and secure email solution allows you to have a stress free always ON email solution.You can access emails from webmail, POP, IMAP, configured on your laptops, desktops, android phone or apple devices like iPhone and iPads and always stay in touch with business associates and clients.",
+      "Whether you are searching for a single mailbox for your personal use on your personal website or a corporate email solution, B-Qarlson Software Technologies can provide a private and spam free Email service that suits your business. Our stable and secure email solution allows you to have a stress free always ON email solution.You can access emails from webmail, POP, IMAP, configured on your laptops, desktops, android phone or apple devices like iPhone and iPads and always stay in touch with business associates and clients.",
 
     cards: [
       {
@@ -1428,7 +1428,7 @@ export default [
 
     heading1: "G Suite Authorized Partner",
     description1:
-      "Being a google G suite authorized partner in Pune, E-Website Provider acts as your personalized communications operator.",
+      "Being a google G suite authorized partner in Pune, B-Qarlson Software Technologies acts as your personalized communications operator.",
     source1: "https://www.citec.in/images/google-workplace-main.png",
 
     heading2:

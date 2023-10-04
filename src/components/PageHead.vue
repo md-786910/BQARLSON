@@ -1,7 +1,7 @@
 <template>
   <header class="header">
    <div class="img-container">
-    <img class="logo" @click="onTabClick" src="logo-home.png" alt="EWP" />
+    <img class="logo" @click="onTabClick" src="logo-home2.png" alt="B-Qarlson Software" />
    </div>
     <nav>
       <ul @click="onTabClick">
@@ -161,7 +161,8 @@ img.logo {
   display: block;
   object-fit: cover;
   height: 100%;
-  height: 100%;
+  width: 240px;
+  border-radius: 5px;
   cursor: pointer;
 }
 li:hover {
